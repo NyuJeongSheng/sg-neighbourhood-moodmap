@@ -1,0 +1,1482 @@
+[
+  {
+    "comment": "Well, my area Redhill is quite rabak.. Mrt Tunnel / tracks separates the rich and the poor.. and lots of old people too with ur usual yp blasting music here and there.",
+    "matched_neighbourhoods": [
+      "redhill"
+    ],
+    "sentiment": {
+      "neg": 0.082,
+      "neu": 0.767,
+      "pos": 0.151,
+      "compound": 0.382
+    }
+  },
+  {
+    "comment": "I feel people who live in Bukit Panjang will never move out of Bukit Panjang.\n\nEdit: lol on all the posts below of people moving out of bpp",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.906,
+      "pos": 0.094,
+      "compound": 0.421
+    }
+  },
+  {
+    "comment": "fellow bukit panjang-er here. I like bp cos of dtl / 190 and the area I live in specifically gets me access to 4 supermarkets in less than 5 minutes so super accessible. cck on the other hand is a diff story w only lot1 and sunshine plaza which r kinda boring\n\nBP also rather peaceful imo",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.029,
+      "neu": 0.728,
+      "pos": 0.244,
+      "compound": 0.944
+    }
+  },
+  {
+    "comment": "Bedok Reservoir here. Lots of walking. Resort like vibes. Great for getting that zen vibe as you stare at a large body of water while on the newly built floating platform. Great connection to town via MRT. Lots of beautiful stray cats that get alot of love.",
+    "matched_neighbourhoods": [
+      "bedok"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.691,
+      "pos": 0.309,
+      "compound": 0.963
+    }
+  },
+  {
+    "comment": "Just moved here from Jurong west 3 years ago and I love it! I’m staying just behind Senja CC so it’s like living with condo facilities (gym + pool) but at HDB price 😂 my kids love going to the pool and walking around the pond when the weather is not too hot. also plus point is 190 bus. Very frequent and great route towards orchard. I commute to Upper Thomson daily on weekdays and before TEL opened, the journey took an hour (190 + 132). Now it takes me only 35 min! And all the greenery here, it’s really nice. \n\nBut I think if I lived in fajar/segar/jelapang areas, I’d be more grumpy because it’s just much further to get out to BP central. \n\nI go to BPP daily for the fairprice. Haven’t noticed behaviours like you mentioned above.",
+    "matched_neighbourhoods": [
+      "jurong west",
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.014,
+      "neu": 0.81,
+      "pos": 0.176,
+      "compound": 0.984
+    }
+  },
+  {
+    "comment": "Woodlands everyone is happy go lucky becoz got JB vibes spilled over /joke",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.535,
+      "pos": 0.465,
+      "compound": 0.827
+    }
+  },
+  {
+    "comment": "I live at Bedok near the Bedok stadium and honestly I love it. I can walk 15 to 20 minutes to Bedok, Bedok Reservoir and Tanah Merah MRT instead of relying the Feeder bus to get to MRT. For food it is close to 3 wet market and 4 hawker centres including the famous 85 Market place and the food is much cheaper than non mature estates as you still can buy food at $2+ depending on the stall. For sports facilities it is 5 minute walk to Bedok Stadium and 10-15 minute walk to swimming pool, Active SG gym. And there are a lot of direct buses available even at Normal bus stops (Bus 24 to Airport, Bus 2 and interchange buses to the city, Bus 87,168,854 to the North East Area and North Area. And the MRT is not as packed compare to NEL or NSL. Bedok still have TEL which is still under construction and it is going to be the FIRST mature town to have 3 MRT lines!!! (Dhoby Ghaut, Outram Park and Marina Bay are not counted) BEDOK IS THE BEST!!!!!",
+    "matched_neighbourhoods": [
+      "bedok",
+      "outram",
+      "tanah merah"
+    ],
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.877,
+      "pos": 0.106,
+      "compound": 0.965
+    }
+  },
+  {
+    "comment": "Huh maybe I'm not very observant but I haven't connected the dots location wise like that. I stay in bishan and I have to say buses to the interchange are more frequent and don't get as crazy crowded as in my old hood tampines, both places I stay 2-3 stops from the interchange. Haven't noticed anything with regards to how friendly people are though.",
+    "matched_neighbourhoods": [
+      "bishan",
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.025,
+      "neu": 0.785,
+      "pos": 0.19,
+      "compound": 0.924
+    }
+  },
+  {
+    "comment": "Bishan resident here. I take bus to mrt every morning and it’s CRAZY packed each day even though I agree the buses are frequent.",
+    "matched_neighbourhoods": [
+      "bishan"
+    ],
+    "sentiment": {
+      "neg": 0.113,
+      "neu": 0.796,
+      "pos": 0.09,
+      "compound": -0.161
+    }
+  },
+  {
+    "comment": "downtown line is a life saver, i cant imagine travelling from bukit panjang to somewhere central like bugis by bus or having to take the other lines",
+    "matched_neighbourhoods": [
+      "bukit panjang",
+      "bugis"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.912,
+      "pos": 0.088,
+      "compound": 0.361
+    }
+  },
+  {
+    "comment": "Prefer Hillion over BP Plaza. Make use of the 1 hour free parking during weekdays before 6pm to buy food lol. Been staying in Bukit Panjang area for about 25 years now, love it here.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.757,
+      "pos": 0.243,
+      "compound": 0.883
+    }
+  },
+  {
+    "comment": "Woodlands here. Food and malls are ok. Hawker centers have kampung admiralty and recently opened bukit canberra. Causeway point is a pretty good mall, theres also ssc and of course jb. Northpoint not too far away either. For young kids life is ok as well, convenient access to admiralty park, woodlands waterfront, sembawang beach. People wise generally ok, as long as not peak hour. Not so many crazy stories as well. Housing prices are low, maybe thats the demographic staying here.\n\n\nCons is the distance to town. Visiting friends or relatives is a pain unless they live in the north as well. Everytime go out for dinner with friends almost always the last one to reach home (unless the pasir ris or jurong west guys come)",
+    "matched_neighbourhoods": [
+      "jurong west",
+      "pasir ris",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.036,
+      "neu": 0.75,
+      "pos": 0.214,
+      "compound": 0.969
+    }
+  },
+  {
+    "comment": "There is another hawker at marsiling mall, just beside the woodlands sports complex and opposite of the Woodlands police hq.",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Rest assured buses here during peak **and** non-peak is shitty so you're not missing out.\n\nAs for people's attitude, perhaps generally there are more younger Singaporeans staying around the east (especially Tampines) due to the pre-COVID BTO projects that is gradually TPO-ing. Maybe that's why the mood better compared to BP/CCK area which is more senior populated.\n\nSource: Tampines-rean",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.054,
+      "neu": 0.831,
+      "pos": 0.114,
+      "compound": 0.45
+    }
+  },
+  {
+    "comment": "I stay in CCK and my S/O stays in Tampines. Tampines is way superior to CCK, worst part of CCK is it's inaccessibility and lack of food choices. My nearby kopitiam has been closed for 5 years already, and other food choices are limited. Buses at Tampines are definitely much better than the ones here as well. Y'all have so many buses to essentially everywhere.",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.107,
+      "neu": 0.748,
+      "pos": 0.145,
+      "compound": 0.44
+    }
+  },
+  {
+    "comment": "Agree with this. \n\nFood options is heaps better in Tampines with a large ass hawker centre at tampines hub and good neighbouring options just a short bus ride away like Bedok 85, Bedok Interchange, Changi Village, Simpang etc. CCK has really nothing and they are still waiting for the JRL to build the hawker centre like wtf?? There are so many ppl living here alrdy to patronise the hawker centre and the fking sunshine place KPT is closed for time immemorial. the Senja/Bukit Panjang hawker centre does not have many (or any) famous stalls at all and so inconveniently located, only 1 bus from Brickland/CCK goes there\n\nWa the transport also so true, Tampines has bus to Woodlands/Punggol/Cck/ Jurong West (albeit quite long luh)/ even has bus that goes to Kent Ridge while CCK only has 1 bus that is fast that heads into orchard while the other 3 long distance options is pathetically slow (188, 985 and 67) and only goes certain areas. Why there is such a huge disparity in bus options between the 2 areas is appalling. The LTA Officer/MPs have seriously been neglecting this god forsaken place jeez. For example, why on earth was 989 to the airport scrapped years ago? I bet my buck that it’s demand will be high now\n\nJeez, stay tf away from CCK/BP",
+    "matched_neighbourhoods": [
+      "bedok",
+      "bukit panjang",
+      "changi",
+      "jurong west",
+      "orchard",
+      "punggol",
+      "tampines",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.074,
+      "neu": 0.817,
+      "pos": 0.109,
+      "compound": 0.837
+    }
+  },
+  {
+    "comment": "I like Bukit Panjang. It’s well maintained, peaceful and clean compared to other busy or older towns.. also downtown line is probably the best imo.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.576,
+      "pos": 0.424,
+      "compound": 0.929
+    }
+  },
+  {
+    "comment": "I'm from BP but have rented and stayed in Serangoon/Hougang area for a few years, I very much prefer it there 😆 The atmosphere just felt a lot better. BP/CCK/West side in general just feels pretty dull and dead. NE side feels a lot more happening.",
+    "matched_neighbourhoods": [
+      "hougang",
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.149,
+      "neu": 0.673,
+      "pos": 0.178,
+      "compound": 0.226
+    }
+  },
+  {
+    "comment": "I also live near bukit panjang and everyone is just jaded to have to live there permanently. Hillion is super busy though so makes sense if food staff there a bit curt (I used to work in koi there). Bukit panjang plaza b1 would be crowded too at night?",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.879,
+      "pos": 0.073,
+      "compound": 0.318
+    }
+  },
+  {
+    "comment": "I think there not being a crowd speaks volumes on the pathetic food options available in BP-CCK compared to Woodlands. For instance, Woodlands have some pretty damn good restaurants on the top floor and Jollibee at the MRT. BP-CCK just have the usual shit franchises\n\nShopping options is also pathetic, there isn’t a Uniqlo at CCK-BP btw. We only have hangten-Baleno/Bossini and even cotton on gave up and moved away LOL",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.155,
+      "neu": 0.715,
+      "pos": 0.13,
+      "compound": -0.505
+    }
+  },
+  {
+    "comment": "You should try visiting marine parade. Lol feels like you step back in time 20 years or more.",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.751,
+      "pos": 0.249,
+      "compound": 0.649
+    }
+  },
+  {
+    "comment": "Yay for Marine Parade! Bus connections are pretty sick whether you're headed east or west, or to the airport. The upcoming TEL stations are going to make public transport even better. Living here doesn't make you fantasize about car ownership so much. Can't imagine moving anywhere else, except maybe Bishan or Toa Payoh. Condolences to people who depend on feeder buses at all.",
+    "matched_neighbourhoods": [
+      "bishan",
+      "marine parade",
+      "toa payoh"
+    ],
+    "sentiment": {
+      "neg": 0.046,
+      "neu": 0.818,
+      "pos": 0.136,
+      "compound": 0.757
+    }
+  },
+  {
+    "comment": "I always feel like people are colder whenever I travel to Jurong East actually… - Tampines Resident",
+    "matched_neighbourhoods": [
+      "jurong east",
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.865,
+      "pos": 0.135,
+      "compound": 0.361
+    }
+  },
+  {
+    "comment": "I've lived in BP for most of my adult life (since 1998) but rented for a few years in the Northeast side (Punggol/Hougang/Serangoon) I prefer NE area a lot more than here. The whole atmosphere of the place feels a bit dull and dead here in BP. I Used to study in schools at Jurong when I was younger, so maybe I'm just too familiar with all the places in the West side and very bored of it. \n\nUsed to stay in Jelapang and then moved to Petir area. Jelapang was more inconvenient, but I think it should be better now because they've been developing the Senja area and here are new roads and stuff over there.  Petir is not bad, I often take the buses to Stevens and then switch to MRT. It's faster than going to take the DTL from BP station. \n\nI think Bukit Panjang Plaza was a bit more happening in the earlier days, when there was a bowling alley there. \n\nI've encountered rude staff at Giant before, but it's not a frequent occurrence. Haven't had any particularly negative experience in the shops here that I can remember. I think there's not much difference as compared to other parts of Singapore. I've witnessed drivers honking at each other and pointing the finger or cussing out their window in the central area as well as Northeast side, so I think it's a nationwide thing not specific to any area.\n\nI think there are more things to do in the East side, the atmosphere is livelier and I have more friends staying in the East than the West now too. I'll be moving to Punggol again for good next year, so I'm looking forward to it.\n\nOh and there are quite a number of horror stories about BP if anyone is interested 😆",
+    "matched_neighbourhoods": [
+      "bukit panjang",
+      "central area",
+      "hougang",
+      "punggol",
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.087,
+      "neu": 0.825,
+      "pos": 0.088,
+      "compound": -0.409
+    }
+  },
+  {
+    "comment": "Woodlands here. \n\nSome people say it's boring, not a lot of malls or entertainment around but I like it as it is. Traffic is pretty okay but can get congested whenever holiday comes around and people are going into JB. \n\nMy neighbourhood is pretty chill and quiet which I really like and it's a good enough distant from a lot of the traffic noises. Personally I just prefer more of a slower paced and quieter environment to live in.",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.715,
+      "pos": 0.268,
+      "compound": 0.977
+    }
+  },
+  {
+    "comment": "If you don't like Bukit Panjang just say it. \n\nI love it here. It's less crowded than other towns like the one you mentioned. Accessibility is good because we are near to BKE and there's DTL. What I love the most is we have lots of greenery here that other towns don't and near to nature parks. And I don't see rude staff at the shopping malls like you said? So yes, I won't move anywhere else for the time being.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.022,
+      "neu": 0.75,
+      "pos": 0.229,
+      "compound": 0.965
+    }
+  },
+  {
+    "comment": "Oof, hi fellow BP dweller. I agree. Bukit Panjang Plaza is a mall with nothing much.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.787,
+      "pos": 0.213,
+      "compound": 0.421
+    }
+  },
+  {
+    "comment": "Boon Lay sucks",
+    "matched_neighbourhoods": [
+      "boon lay"
+    ],
+    "sentiment": {
+      "neg": 0.556,
+      "neu": 0.444,
+      "pos": 0.0,
+      "compound": -0.361
+    }
+  },
+  {
+    "comment": "Used to stay near Tampines Hub. It's such an excellent place to live. Everything is within walking distance, from hawker centers, to four (!) malls, to a library. There's even a shuttle bus to IKEA. Good network of PCNs and CPNs as well, though the CPN paths are disjointed in some regions.",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.039,
+      "neu": 0.81,
+      "pos": 0.152,
+      "compound": 0.771
+    }
+  },
+  {
+    "comment": "Queenstown. I like it only because it's not too far from the city and I've lived there all my life.\n\nOther than that, the list of cons is longer than pros:.\n\nPros: \n\n\\- Ikea. (Yet I've only gone there only 2x to eat in my life lmao)\n\n\\- Lots of Hawker food. If you know where to go, you can find rly cheap food that is good.\n\n\\- City is convenient via EWL/Bicycle. \n\nCons: \n\n\\- Piss poor public transport options that don't really facilitate intra-town connectivity. Getting around by bicycle is a far faster option.\n\n\\- Lack of \"real amenities\". No cinema (nearest is at Tiong Bahru), or a proper mall (anchorpoint doesn't count, Queensway is abit niche)\n\n\\- Very limited food options past 8pm.\n\n\\- Relatively inaccessible fast food options.\n\n\\- There's nothing much to really do in this part of SG.\n\n\\- Housing prices are wayy out of proportion for what the place actually offers.",
+    "matched_neighbourhoods": [
+      "queenstown",
+      "tiong bahru"
+    ],
+    "sentiment": {
+      "neg": 0.073,
+      "neu": 0.872,
+      "pos": 0.054,
+      "compound": -0.294
+    }
+  },
+  {
+    "comment": "This is pretty accurate. It feels like queenstown is so close to tiong bahru, and orchard we can get away with not having much of our own amenities. And as the north has become so much more of a hub of activity we are a little separated from that.  If you are on the circle line or the thompson Eastcoast, you have easier access across the city. Where we are a little removed.  I think there is going to be a new mall at queenstown mrt, last I heard. And also Delta Swimming Complex, is really not bad at all. \n\nThe lack of food after 8 is something i do really feel. I get home late most days. Meixi’s Kitchen Yong Tau Foo. Is good and can be healthy. But there have been weeks where I have eaten there 2-3 times. as it is them or mcdonald's. I cook and freeze meals myself, so I have variety.",
+    "matched_neighbourhoods": [
+      "orchard",
+      "queenstown",
+      "tiong bahru"
+    ],
+    "sentiment": {
+      "neg": 0.01,
+      "neu": 0.911,
+      "pos": 0.079,
+      "compound": 0.805
+    }
+  },
+  {
+    "comment": "tpy. love it\n\nclose to town, less than 10 min train ride to orchard and 20 for raffles place. \n\nton of good food and hawkers. \n\nbus interchange too so can travel anywhere i want to no problem.",
+    "matched_neighbourhoods": [
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.756,
+      "pos": 0.244,
+      "compound": 0.864
+    }
+  },
+  {
+    "comment": "I actually quite like yew tee. \n\n\nCons: nothing to do \n\n\nPros: quiet because nothing to do, and CCK and woodlands are close enough that it's not that bad if you're near the MRT. There's also a direct bus to DTL so even though it's geographically far from CBD the travel time is not that bad. Also, close to Woodlands means close to JB.",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.876,
+      "pos": 0.124,
+      "compound": 0.817
+    }
+  },
+  {
+    "comment": "Woodlands, and I actually like it a lot here\n\nPros:\n\n- Quiet enough\n- Close to JB\n- Amenities are pretty good (the additional of Daiso and Scarlett is really nice, hoping if possible for Donki in future too)\n\nCons:\n- They really could have added more bus services tbh\n- Woodlands Town Centre is now gone and heard news about them wanting to develop the area there but so far nothing has happened lol (I know there's Marsiling Mall but it just doesn't feel the same)",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.032,
+      "neu": 0.863,
+      "pos": 0.105,
+      "compound": 0.598
+    }
+  },
+  {
+    "comment": "JB is woodlands residents backyard, literally 30 mins away",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Ahh lemme guess....Yishun?",
+    "matched_neighbourhoods": [
+      "yishun"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Eunos/Ubi are some of the most accessible places. Over 18 buses and very fast to Orchard.",
+    "matched_neighbourhoods": [
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Marine parade have lah haha that’s about 2km away!",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.708,
+      "pos": 0.292,
+      "compound": 0.509
+    }
+  },
+  {
+    "comment": "Marine Parade is more than 3km from my place.",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Ah oop sorry I used to (once upon a time) walk all the way to Joo Chiat and also to anywhere fitness in marine parade 😅 always thought it’s around 2km for some reason! Paiseh",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.032,
+      "neu": 0.85,
+      "pos": 0.119,
+      "compound": 0.556
+    }
+  },
+  {
+    "comment": "Jurong West-I like the town it is very big and everything is convenient and I have a wide variety of malls near me. \n\nCons:the airbase is nearby loud,very hot",
+    "matched_neighbourhoods": [
+      "jurong west"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.918,
+      "pos": 0.082,
+      "compound": 0.361
+    }
+  },
+  {
+    "comment": "The Blk 455 there the bicycle shop closed? Beside sheng siong one.... I used to stay at Seletar, SK Fernvale area very near.",
+    "matched_neighbourhoods": [
+      "seletar"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Bukit Merah\n\nPros:\nCentral-ish close to town, transport is convenient.\n\nHeritage area but undergoing rapid gentrification.\n\nLots of interesting places to explore and food to try. (Have been living here 8+ years but still discovering new things nearby)\n\nCons:\nRush hour traffic is super bad along Jalan Bukit Merah.\n\nHigh boomer population. And not the nice kind of boomers.\n\nRapid gentrification and ambitious LTA developments in the next few years is going to play merry hell with real estate prices.\n\nCircle line isn't really a circle (yet).",
+    "matched_neighbourhoods": [
+      "bukit merah",
+      "jalan bukit merah"
+    ],
+    "sentiment": {
+      "neg": 0.124,
+      "neu": 0.693,
+      "pos": 0.183,
+      "compound": 0.775
+    }
+  },
+  {
+    "comment": "**Pasir Ris West**\n\nPros: Quiet. Generally spacious HDBs. Close to expressways if driving/grabbing. Sorta close to the Ikea/Giant/Courts cluster.  \n\nCons: boring shops, far away from city, not that near to mrt, and bus intervals for most routes kinda long (unless going interchange), many unsheltered walkways. No good food.",
+    "matched_neighbourhoods": [
+      "pasir ris"
+    ],
+    "sentiment": {
+      "neg": 0.093,
+      "neu": 0.907,
+      "pos": 0.0,
+      "compound": -0.573
+    }
+  },
+  {
+    "comment": "tampines not bad. big malls, many choices nearby, would recommend",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.599,
+      "pos": 0.401,
+      "compound": 0.654
+    }
+  },
+  {
+    "comment": "Staying in Punggol. The not so old, not so new part. Overall is okay. WWP has what you need in a mall. Plazas here and there to shop. Several supermarkets in the vincinity though the one under my block(Giant) sucks big time. I'd rather walk a bit more to Fairprice or Sheng Siong.\n\nSome of my neighbours are inconsiderate a-holes. I made a noise complaint about people talking loudly at the main drop off point in the middle of the night. TC tried to do something by putting a \"Lower your volume\" and \"Please keep the area clean\" sign like the ones you see outside malls and 24hr coffeeshops. Someone actually tore it off. It definitely wasn't rain or wind as the \"Clean\" sign is still up.\n\nThen there's those that throw stuff out of their windows. Those who don't bother to throw bulky items downstairs. Or worse just dump into the chute, the chute cannot close and just leave it for the next person to deal with it.\n\nAlso for the bulky items. Instead of calling TC to arrange cleaner to help remove, they just leave it at the lift landing as if it'll magically disappear. When there have been multiple times the good neighbours put up a note that they've called TC for removal. There were a couple of times the bulky furniture was left at the lift landing for months. To the point the cleaner knocked on each door to find out who put it there. Cleaner explained he cannot anyhow remove without prior instruction.\n\nIt isn't just my block. The neighbouring blocks also have their share of a-hole neighbours. If not for those a-holes, my neighbourhood is pretty nice and peaceful.",
+    "matched_neighbourhoods": [
+      "punggol"
+    ],
+    "sentiment": {
+      "neg": 0.074,
+      "neu": 0.798,
+      "pos": 0.128,
+      "compound": 0.948
+    }
+  },
+  {
+    "comment": "No? SERANGOON is boringgggg. Extremely boring. \n\nNex mall? I go there almost everytime because i have to pass inside the mall to get home from mrt. And i know excactly what shop's are there previously and currently have. Just name it. Mehhh. I hate Nex mall now. \n\nGood thing is...there's a new upcoming serangoon polyclinic opening in 2026 just opp nex mall. It's gonna be the biggest. \n\nAnd nothing much. Just so plain boring!! I wish i was staying in the west. So many things to adventure larh...",
+    "matched_neighbourhoods": [
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.098,
+      "neu": 0.822,
+      "pos": 0.079,
+      "compound": -0.443
+    }
+  },
+  {
+    "comment": "Jurong West Extension\n\nLike: \n\nHave decent food options nearby (Jurong Point, Gek Poh, Boon Lay Place, Taman Jurong if feeling rich).\n\nLocation will have mrt station in a couple of years.\n\nNear NTU when I used to study there. \n\n\nDislike: \n\nIt is the western extension of the westernmost part of Singapore. Any meeting further than Jurong East requires a cost-benefit analysis and a budgeting consultation.\n\nI no longer need to be so near NTU.",
+    "matched_neighbourhoods": [
+      "jurong east",
+      "jurong west",
+      "boon lay"
+    ],
+    "sentiment": {
+      "neg": 0.059,
+      "neu": 0.848,
+      "pos": 0.093,
+      "compound": 0.421
+    }
+  },
+  {
+    "comment": "My reservist was at Jurong Camp 2. Everytime I book out to go home (Tiong Bahru), I felt like dying..\n\nTake taxi still not so bad esp during off peak, cos chiong AYE quite fast. If take public transport, can die.",
+    "matched_neighbourhoods": [
+      "tiong bahru"
+    ],
+    "sentiment": {
+      "neg": 0.081,
+      "neu": 0.792,
+      "pos": 0.127,
+      "compound": 0.292
+    }
+  },
+  {
+    "comment": "Choa Chu Kang\n\n\n**Like:**\nThis is where my family is.\n\n\n**Dislike:**\n&gt; Food availability:\n\nZero NEA owned hawker centres. Even though we are a huge ass town. Still waiting for MP / Minister to do something. Lmao. Lets not talk about the one they are building at Yew Tee okay? Even though Yew Tee is CCK North, but to travel there just for hawker food is quite insane. Tried walking from CCK to Yew Tee MRT and it takes 15 to 20mins. CCK itself is a huge ass GRC. There should be one directly within CCK GRC and not kena chop stamp and call the one at Yew Tee as CCK Hawker Centre. \n\n\nSunshine Place food court has been closed since 2021. What the fuck? I know la. The fella went bankrupt. But come on lah. How long already...\n\n\n&gt;Connectivity \n\nNo direct feeder bus to connect to CBD/ Central areas. Lets not talk about 190/67 bah. Those bus will take a way to even reach Central areas. There should be a bus to direct bus to reach CBD or Central areas. \n\n\nOur fastest way to go to Town / CBD is through Downtown Line. But first I  have to take LRT first before I can use DTL. Damn connectivity game in CCK is weak as fuck. And let's not forget that most CCK residents do not stay within walking distance from the LRT stations. Have y'all seen the outskirts of CCK? Those are so ulu you can even see more wildlife than more humans.\n\n\nLol, JRL is a fucking clownfest. Lets face it, building it above ground level is likely due to budget constraints. And guess what, the train leads to further west? Like you serious buddy? Not everyone stays in the west wants to work in the west. Enhancing the connectivity is the west is a good thing. Don't get me wrong. However, that doesn't mean everyone wants to go further west. And the best part of all, the connectivity of JRL leads you to connect with CCK MRT and JE MRT. Have y'all seen how crowded these train stations are already in the morning? Someone in LTA decided, yeah lets connect them into these areas 👍 bagus.\n\n\n&gt;Tengah\n\nTengah is gonna build up. It's gonna flood the areas in within its vicinity. JE, CCK, Boonlay. Are there any plans to build up onto its current capacity? I know that Tengah will be a town on its own. But are there any concrete plans to prepare for these build up? Hawkers? Connectivity (LRT MRT BUS)? Public spaces? Possible hangout spots?",
+    "matched_neighbourhoods": [
+      "central area",
+      "choa chu kang"
+    ],
+    "sentiment": {
+      "neg": 0.08,
+      "neu": 0.832,
+      "pos": 0.088,
+      "compound": -0.422
+    }
+  },
+  {
+    "comment": "Simei is just a small estate in the east. But it's been my home since birth. I can get anywhere with foot, there's a shopping mall and MRT station right near my doorstep. PCN to Tampines and ECP. Somewhat I feel its peacefulness when I'm home.",
+    "matched_neighbourhoods": [
+      "simei",
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.916,
+      "pos": 0.084,
+      "compound": 0.631
+    }
+  },
+  {
+    "comment": "Yes you’re right, Mirana! Sorry I let my Simei homies down",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.098,
+      "neu": 0.677,
+      "pos": 0.225,
+      "compound": 0.4
+    }
+  },
+  {
+    "comment": "I grew up in Simei and I love Mirana's red bean buns (sold in 6 pack) and their chicken pies. I still travel back there to buy their pineapple tarts for CNY.",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.881,
+      "pos": 0.119,
+      "compound": 0.637
+    }
+  },
+  {
+    "comment": "Also hospital nearby. I think simei is underrated",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Simei is the best. It's convenient but not crowded. Fairly accessible.",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.794,
+      "pos": 0.206,
+      "compound": 0.382
+    }
+  },
+  {
+    "comment": "I thought to share my fond memories of simei too. Didn't live there but 1 or 2 mrt stops away. There was this min Jiang Kueh stall at the kopitiam near the mrt that was brilliantly made and I loved enough to make occasional detours. I went for peanut paste (a slightly wet and sticky version of the traditional peanut filling). I also recall, that younger me love pets and there prior to east point being renovated, there was this huge pet safari that I would visit to see animals through glass windows.\nThese probably don't exist now, but it's really nostalgic to look back.",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.778,
+      "pos": 0.189,
+      "compound": 0.97
+    }
+  },
+  {
+    "comment": "It’s better than Tampines. A quiet stay for you.",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.734,
+      "pos": 0.266,
+      "compound": 0.44
+    }
+  },
+  {
+    "comment": "Simei sibei siok",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "I don’t live in Simei but I used to visit and spend weekends with my cousin who lived there when we were kids. It’s so peaceful and everyone there just seemed happier. I loved it",
+    "matched_neighbourhoods": [
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.672,
+      "pos": 0.328,
+      "compound": 0.956
+    }
+  },
+  {
+    "comment": "Just don’t step into the cesspit Tampines",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Woodlands gang 😩",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.412,
+      "neu": 0.588,
+      "pos": 0.0,
+      "compound": -0.273
+    }
+  },
+  {
+    "comment": "Bukit Panjang is the best. Ulu enough to be away from the hustle and bustle but more or less has everything.  \n\n\nThe ONLY thing missing is a cinema.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.089,
+      "neu": 0.828,
+      "pos": 0.083,
+      "compound": -0.052
+    }
+  },
+  {
+    "comment": "So glad to see this. Love Bukit Panjang too. The nearest cinema I guess would be at King Albert Park, or Lot 1, but otherwise, we're very cozy in our little town!!!",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.833,
+      "pos": 0.167,
+      "compound": 0.72
+    }
+  },
+  {
+    "comment": "Agreed. We have beautiful cozy little parks as well. That Zhenghua park trail right beside the expressway is just awesome.   \n\n\nPangsua pond is our own tiny lakeside.   \nOur malls are just the right amount of busy.  \nThe LRT is our own roller coaster.   \n972 to Orchard is just the best bus ever.  \nBangkit Market is great. The vibes are just.... unique.  \n\n\nWouldn't trade it for the world.",
+    "matched_neighbourhoods": [
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.751,
+      "pos": 0.249,
+      "compound": 0.965
+    }
+  },
+  {
+    "comment": "I live in Fernvale, the western corner of Sengkang. \n\nThe only pros I can think of are the easy walking distance to the LRT and Seletar Mall. There's the Sengkang Riverside Park and sports conplex nearby my house too.\n\n\nCons are mainly on lack of alternative transport links like no daily direct buses to the CBD, not counting the City Direct servcies. The buses here, 85 and 102, only go as far as Yishun and Hougang respectively. \n\nIn order to get to Sengkang Town Centre and the main Compass One mall, we have to either take bus 102 or the LRT. The LRT however, can be quite packed and it takes about 5-6 mins to wait for a LRV to arrive. Once at Sengkang Town Centre, we can take the NEL southwards. The NEL itself is also another con as this is the only MRT line to and from the northeast region and gets packed quite easily. If NEL is down, gg to us. The 9th MRT line will only be up in the late 2030s or 40s.",
+    "matched_neighbourhoods": [
+      "hougang",
+      "seletar",
+      "sengkang",
+      "yishun"
+    ],
+    "sentiment": {
+      "neg": 0.024,
+      "neu": 0.909,
+      "pos": 0.067,
+      "compound": 0.802
+    }
+  },
+  {
+    "comment": "Yes definitely the new cc and hawker centre! Though I myself haven't went there yet. 😅 I am planning to go take a look someday.\n\nYes bus 50 and 163 also serves seletar mall there but for my case, it's the other side of fernvale that's served by 85, 102 and feeder 374. \n\nWelcome to Fernvale and oh my, I understand the daily struggle of having to wake up damn early to go to school on the other side of the island! Used to live in Pasir Ris and had to wake up early to go to school in SP at Dover. 🫠 My family moved to Fernvale in 2017 after living 15 years in Pasir Ris.",
+    "matched_neighbourhoods": [
+      "pasir ris",
+      "seletar"
+    ],
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.86,
+      "pos": 0.09,
+      "compound": 0.524
+    }
+  },
+  {
+    "comment": "Woah salutes to you for traveling to cck daily for school despite living in Sengkang. You can take 161 to woodlands? If this is an option for you!",
+    "matched_neighbourhoods": [
+      "sengkang",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Hougang, because there’s lots of supper spots, and not too saturated with people (esp newly weds with babies)",
+    "matched_neighbourhoods": [
+      "hougang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "And its non-mature estate but has the old shops like a mature estate! I lived here all my life. I especially love the old rain trees that can still be found around Hougang.",
+    "matched_neighbourhoods": [
+      "hougang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.69,
+      "pos": 0.31,
+      "compound": 0.938
+    }
+  },
+  {
+    "comment": "Hougang is non-matured?!",
+    "matched_neighbourhoods": [
+      "hougang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "I'll do you one better. I stay in hougang, bordering sengkang already, and I'm STILL in AMK GRC",
+    "matched_neighbourhoods": [
+      "hougang",
+      "sengkang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.854,
+      "pos": 0.146,
+      "compound": 0.44
+    }
+  },
+  {
+    "comment": "Yup! But heard they gonna relook at the mature/non-mature estates so maybe next time hougang will be mature liao. But for now its still non-mature (https://www.99.co/singapore/insider/what-is-non-mature-estates-vs-mature-estates-hdb/)",
+    "matched_neighbourhoods": [
+      "hougang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.862,
+      "pos": 0.138,
+      "compound": 0.611
+    }
+  },
+  {
+    "comment": "Marine Parade for the connectivity. Hardly do you find anywhere so well-connected to both the central area and Changi Airport by public transport. Even commuting to my office in the west is not too painful. With the upcoming TEL stations set to open soon, it will also be a breeze to go to Woodlands. Hardly dream about car ownership while living here. East Coast Park is the perfect icing on the cake, although it does get a bit choked up on weekends.",
+    "matched_neighbourhoods": [
+      "central area",
+      "changi",
+      "marine parade",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.035,
+      "neu": 0.877,
+      "pos": 0.088,
+      "compound": 0.574
+    }
+  },
+  {
+    "comment": "Been a big fan of marine parade since young.\n\nThen I grew up and realise that the area is priced out of my peasant ass budget. Hahaha",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.105,
+      "neu": 0.719,
+      "pos": 0.177,
+      "compound": 0.34
+    }
+  },
+  {
+    "comment": "i love marine parade too. the new TEL station is right outside my house :)",
+    "matched_neighbourhoods": [
+      "marine parade"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.644,
+      "pos": 0.356,
+      "compound": 0.802
+    }
+  },
+  {
+    "comment": "Bus 48 to Bugis and continuing westbound on the DTL or EWL works out great. Takes 40-45 minutes to get to Buona Vista, which is about as good as it gets in Singapore for the distance travelled. The only yucky thing about this route is waiting for bus 48, lol.",
+    "matched_neighbourhoods": [
+      "bugis"
+    ],
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.785,
+      "pos": 0.167,
+      "compound": 0.791
+    }
+  },
+  {
+    "comment": "As an ex marine parader who has moved northwards, everything you mentioned is spot on except for travelling to woodlands via TEL. Hello have you seen the line layout? You will sit until butt cramp",
+    "matched_neighbourhoods": [
+      "marine parade",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.95,
+      "pos": 0.0,
+      "compound": -0.202
+    }
+  },
+  {
+    "comment": "Still way easier than getting a bus to Paya Lebar, switching to Circle Line, switching to TEL at Caldecott. Travel time isn't reduced by much or at all, but it's going to be seamless.",
+    "matched_neighbourhoods": [
+      "paya lebar"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.946,
+      "pos": 0.054,
+      "compound": 0.226
+    }
+  },
+  {
+    "comment": "Upper Thomson! Most convenient, with all food, cafes and supper spots. There is a ton of nature at the reserviors, nature park, Bishan park. In between AMK, Shunfu &amp; Bishan with all the old markets. With the TEL line it’s 20 mins to orchard road 🫶🏻",
+    "matched_neighbourhoods": [
+      "bishan",
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "I like the conveniences of Serangoon but my place faces a busy main road with significant noise pollution. I'll prefer a quieter estate and more greenery at my next home...",
+    "matched_neighbourhoods": [
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.876,
+      "pos": 0.124,
+      "compound": 0.45
+    }
+  },
+  {
+    "comment": "Come kovan/hougang, it’s near Serangoon and not crowded at all",
+    "matched_neighbourhoods": [
+      "hougang",
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Agreed. Kovan / Hougang / Sengkang are so underrated. It’s away from the hustle and bustle, has plenty of greenery and it’s not too far away (IMO esp if near the MRT = accessibility is ok)",
+    "matched_neighbourhoods": [
+      "hougang",
+      "sengkang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.943,
+      "pos": 0.057,
+      "compound": 0.273
+    }
+  },
+  {
+    "comment": "Taking mrt from the NE to town during rush hour morning, I feel bad for people boarding from Kovan though. Trains are completely packed by the time they reach Hougang, and Kovan is just one stop sandwiched before Serangoon where tons of people get off",
+    "matched_neighbourhoods": [
+      "hougang",
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.117,
+      "neu": 0.861,
+      "pos": 0.023,
+      "compound": -0.681
+    }
+  },
+  {
+    "comment": "Moved to Bedok/Tanah Merah recently and I love it here. Kovan/Serangoon/Hougang used to be my favourite area but it's now being replaced by Bedok. A lot of shops and supermarkets at central, a lot of eating places nearby and it's also convenient to go to Paya Lebar/Tampines/Pasir Ris/Marine Parade/ECP/Expo/Changi.  The food places here are a lot more than the ones around Kovan, and the green line MRT is also pretty fast to reach CBD area.  \n\nSo much better than northwest where I used to live 🤣 But my side at Bukit Panjang wasn't that bad because it was just the stop right before the expressway so I had a lot of buses to take to Marsiling/Woodlands/Orchard area. Only thing is that I didn't like the neighbours there. It was worse at the inner parts of Bukit Panjang (Jelapang) where I had to take LRT or walk 15 mins just to reach the MRT station.\n\nI think my fave neighbourhoods now would be the east side green line areas (Bedok/Tampines/Marine Parade), or the northeast purple line areas (Serangoon/Hougang/Kovan/Sengkang/Punggol). \n\nDefinitely East side &gt; West side",
+    "matched_neighbourhoods": [
+      "bedok",
+      "bukit panjang",
+      "changi",
+      "hougang",
+      "marine parade",
+      "orchard",
+      "pasir ris",
+      "paya lebar",
+      "punggol",
+      "sengkang",
+      "serangoon",
+      "tampines",
+      "tanah merah",
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.045,
+      "neu": 0.819,
+      "pos": 0.136,
+      "compound": 0.96
+    }
+  },
+  {
+    "comment": "Agree. Bedok is very very underrated. \n\nFrom my home I can reach Paya Lebar, Tampines, Marine Parade, Bishan in 15 mins. Even going to town takes me max 20 mins.",
+    "matched_neighbourhoods": [
+      "bedok",
+      "bishan",
+      "marine parade",
+      "paya lebar",
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.886,
+      "pos": 0.114,
+      "compound": 0.382
+    }
+  },
+  {
+    "comment": "I stay in Bukit Panjang too! \n\nIn general ulu, but I consider myself very lucky because that the area I’m staying at is a rather good location (next to Petir Station) so it is very convenient for me.\n\nCan walk to BPP and Hillion within 10mins, got hawker centre downstairs, can take 960/963/171/75 at the bus stop downstairs, cut through the blocks and walk to Zhenghua Primary can take 190/187/184.\n\nLike growing up till now, I have straight bus to all the places I go to for school and work.",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.023,
+      "neu": 0.821,
+      "pos": 0.156,
+      "compound": 0.927
+    }
+  },
+  {
+    "comment": "Bukit Panjang?",
+    "matched_neighbourhoods": [
+      "bukit panjang"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Punggol?",
+    "matched_neighbourhoods": [
+      "punggol"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Shifted into Tampines  ctr 20+ years ago, 5 minutes walk to MRT, shopping ctr, food store. Good food stores are closing down, prices going up. It's getting very crowded around here. Downtown line makes going places much more convenient. \n\nExercises were easy as they alot of jogging n cycling path. The SAFSA swimming pool is afew bus stop away,  badminton at sports hub or the neighbouring cement courts. \n\nThe neighbours were sociable in the past. Some changed when their kids grow up or obtained better jobs. Mostly, It's the retired folks that stays the same.  \n\nNothing stays the same.",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.891,
+      "pos": 0.109,
+      "compound": 0.891
+    }
+  },
+  {
+    "comment": "It’s too crowded now for my liking. I cannot breathe. Escaping to Pasir Ris was like a breath of fresh air. But it’s now also super crowded there",
+    "matched_neighbourhoods": [
+      "pasir ris"
+    ],
+    "sentiment": {
+      "neg": 0.031,
+      "neu": 0.663,
+      "pos": 0.306,
+      "compound": 0.86
+    }
+  },
+  {
+    "comment": "I live in Punggol. For the most part, it is a relatively youthful community with young families at malls and park connectors which is great. \n\nWhat i dont like is the inaccessibility to everywhere outside of the north east. It takes me an hour to get anywhere. Punggol also has frequent planes flying past which isnt great for those who like to sleep in, take naps in the day or those who do shift work",
+    "matched_neighbourhoods": [
+      "punggol"
+    ],
+    "sentiment": {
+      "neg": 0.064,
+      "neu": 0.83,
+      "pos": 0.106,
+      "compound": 0.542
+    }
+  },
+  {
+    "comment": "I have to close the windows and doors so that i dont get awaken by planes flying by. Still manageable for me. for the inaccessibility, I think getting a place in punggol without having to take the LRT would be great. \n\nideally, I would consider moving elsewhere but it really depends on property prices",
+    "matched_neighbourhoods": [
+      "punggol"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.921,
+      "pos": 0.079,
+      "compound": 0.535
+    }
+  },
+  {
+    "comment": "Telok blangah. Just moved here. Greener nearby in Mt Faber. Vivocity right there. Tiong Bahru cafes also. And cheap cheap market and coffee shop too!",
+    "matched_neighbourhoods": [
+      "telok blangah",
+      "tiong bahru"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "Bukit batok!\n\nGood:\n\nTransport - so many bus! We have buses going everywhere if you happen to stay in bukit batok east. Going to town alone, i have 4 different buses i can take from the same bus stop. Sure it takes 45min to 1 hr but you can literally miss a bus and just wait a few mins more for the next one instead of like another 20min or sth. And there's really buses going everywhere. Except maybe the northeast. 61 even reaches bedok\n\nProximity - we're kinda like an awkward in between of a few big hoods, we're near jurong east, bukit timah, hillview-bukit panjang, gombak-cck, toh tuck-clementi at the same time, depends on which direction we travel. idk how this can happen but it does.\n\nFood - i think we are big enough to have good hawker or tzichar scattered in different parts of bukit batok, some in bb east, some in bb west but honestly its not that hard to get good food\n\nMaybe cons:\n\nBuzzzz - Since we're kinda of an awkward in between - I realised that in bukit batok most neighbourhood is rather busy, fast paced, noisy. You just cannot really get the quiet peaceful environment compared to bukit panjang, simei where vibes are so much more chill.\n\nAll these does not take into account the new BTO flats near polyclinic. Because sis left bukit batok before they were done building. \n\nI also don't have much cons because i don't really remember them. I grew up in bukit batok, moved to cck. Honestly bukit batok was way better. Now from my house want to reach jurong east also need to take lrt change mrt. Things are all kinda far as well. And no good food, want to die",
+    "matched_neighbourhoods": [
+      "bedok",
+      "bukit batok",
+      "bukit panjang",
+      "bukit timah",
+      "clementi",
+      "jurong east",
+      "simei"
+    ],
+    "sentiment": {
+      "neg": 0.056,
+      "neu": 0.819,
+      "pos": 0.125,
+      "compound": 0.972
+    }
+  },
+  {
+    "comment": "choa chu kang no good food meh …",
+    "matched_neighbourhoods": [
+      "choa chu kang"
+    ],
+    "sentiment": {
+      "neg": 0.382,
+      "neu": 0.618,
+      "pos": 0.0,
+      "compound": -0.403
+    }
+  },
+  {
+    "comment": "Woodlands here. \n\nWhat I like:\n- Close to JB (bonus for me cause I have relatives in Malaysia)\n- Has a variety of amenities conveniently accessible\n- Quiet and not very busy\n- Overall just find it pretty chill and comfy (not really a fan of bustling busy areas)",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.038,
+      "neu": 0.798,
+      "pos": 0.163,
+      "compound": 0.792
+    }
+  },
+  {
+    "comment": "Boon Lay boy here\n\nPro: Jurong Lake Garden, Jurong Point (compact &amp; complete mall), \n\nCon: That rotten chocolate smell, Damn far from Changi and city, loud fighter jet sound\n\nWill keep staying here or maybe move to a similar location at the east.. thinking abt Bedok",
+    "matched_neighbourhoods": [
+      "bedok",
+      "changi",
+      "boon lay"
+    ],
+    "sentiment": {
+      "neg": 0.119,
+      "neu": 0.85,
+      "pos": 0.032,
+      "compound": -0.66
+    }
+  },
+  {
+    "comment": "Unfortunately, the east will also have fighter jets flying around since Paya Lebar Airbase is in the vicinity of Pasir Ris, Tampines, Bedok, Hougang, Sengkang and Punggol..",
+    "matched_neighbourhoods": [
+      "bedok",
+      "hougang",
+      "pasir ris",
+      "paya lebar",
+      "punggol",
+      "sengkang",
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.083,
+      "neu": 0.862,
+      "pos": 0.055,
+      "compound": -0.202
+    }
+  },
+  {
+    "comment": "HI TENGAH AIRBASE THIS IS PAYA LEBAR CAN YOU HEAR MEEEEE!!!!????",
+    "matched_neighbourhoods": [
+      "paya lebar"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    }
+  },
+  {
+    "comment": "I spent most of my younger years in the west with schools around Jurong and Boon Lay  so I'm v familiar with that area, just moved to Bedok recently and I totally recommend you to move here. It's so much better. A lot more things to do and much more convenient to go to town or various places in the east. Much more eating places with nice food and also closer to Changi.\n\n There's nothing much in Jurong apart from Jurong Point (which is pretty old already), JEM and Westgate. Bedok is not similar, it is better 🤣",
+    "matched_neighbourhoods": [
+      "bedok",
+      "changi",
+      "boon lay"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.842,
+      "pos": 0.158,
+      "compound": 0.952
+    }
+  },
+  {
+    "comment": "Just curious what made you move to Bedok from Jurong?",
+    "matched_neighbourhoods": [
+      "bedok"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.796,
+      "pos": 0.204,
+      "compound": 0.318
+    }
+  },
+  {
+    "comment": "I actually stayed in Bukit Panjang and not Jurong, just that my schools were mostly in Jurong. \n\nI've been renting different places around SG, from Serangoon to Hougang to Punggol and now Bedok. Because I just prefer to stay elsewhere and try out different environments rather than just be in the same place all the time? I can never relate to people who have only stayed in one house since young until they get married. Feels so boring and stifling.",
+    "matched_neighbourhoods": [
+      "bedok",
+      "bukit panjang",
+      "hougang",
+      "punggol",
+      "serangoon"
+    ],
+    "sentiment": {
+      "neg": 0.036,
+      "neu": 0.964,
+      "pos": 0.0,
+      "compound": -0.457
+    }
+  },
+  {
+    "comment": "Woodlands here.\n\n- JB is very near. \n- Air-conditioned bus interchange that has buses going almost every part of SG.\n- MRT connectivity is not bad too as there are 2 MRT lines now (TEL and NSL).\n- Expressways such as BKE &amp; SLE are nearby as well.\n- The supermarkets and Foodcourts are located pretty conveniently too (lesgo Vista Point, 888Plaza, Woodlands Mart &amp; Kampung Admiralty). \n- There are beautiful nature parks located nearby too with PCNs as well.\n\nFinally, my most fav is the malay barber shop at 888plaza.",
+    "matched_neighbourhoods": [
+      "woodlands"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.81,
+      "pos": 0.19,
+      "compound": 0.956
+    }
+  },
+  {
+    "comment": "Tampines (but not east)\n\nMy parents stay smack dab in the middle of Tampines West and Tampines Central. Tampines North is nearby as well. So you can guess where I'm going with this.\n\nLikes: \n\n-Food is ready just about everywhere.\n\n-Access to 2 McDonalds if food isn't made ready in the middle of the night.\n\n-3 Shopping Centres and a hub.\n\n-Mrt takes about 5 mins or less to get to if going via Tam West and roughly 10 mins+ via Tam Central.\n\n-Access to toilet in the middle of the night if out and about (Tam hub etc).\n\n-Ikea, giant and courts + cash converters are nearby.\n-NLB is nearby if I want to go.\n\n-Surprisingly quiet here.\n\nDislikes:\n\n-Majority of my friends stays in the West/North of SG so Tampines is not exactly ideal for a meet up.\n\n-The good food is at Tampines East. So annoying.\n\n-Anything further than 5m from my parents house and I'm already ready to just turn back around and fuck it (I'm introverted lol).\n\n-For some reason, people in Tampines are judgemental af.\n\n-Neighbours here (who aren't boomers) prefer to avoid being seen by others when coming out of the house. Probably just me though.\n\n-If looks like it's going to rain, it won't rain. If it looks bright and sunny, be prepared to die from the heat. \n0\n-Not really much fun stuff to do in Tampines since only food is the main criteria.",
+    "matched_neighbourhoods": [
+      "tampines"
+    ],
+    "sentiment": {
+      "neg": 0.106,
+      "neu": 0.75,
+      "pos": 0.144,
+      "compound": 0.85
+    }
+  },
+  {
+    "comment": "So where do you meet your North/West friends? Everyone compromise and meet at Orchard/town?",
+    "matched_neighbourhoods": [
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.79,
+      "pos": 0.21,
+      "compound": 0.536
+    }
+  },
+  {
+    "comment": "Yishun pride🫰 Fight me🥱",
+    "matched_neighbourhoods": [
+      "yishun"
+    ],
+    "sentiment": {
+      "neg": 0.464,
+      "neu": 0.536,
+      "pos": 0.0,
+      "compound": -0.382
+    }
+  },
+  {
+    "comment": "Love the ulu vibes around Mandai",
+    "matched_neighbourhoods": [
+      "mandai"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.543,
+      "pos": 0.457,
+      "compound": 0.637
+    }
+  },
+  {
+    "comment": "There’s safra, hometeamns, cinema, 2x bowling alley, lower seletar reservoir. Honestly not that bad.",
+    "matched_neighbourhoods": [
+      "seletar"
+    ],
+    "sentiment": {
+      "neg": 0.115,
+      "neu": 0.577,
+      "pos": 0.307,
+      "compound": 0.565
+    }
+  },
+  {
+    "comment": "**YISHUN**\n\nLike: Very happening, also Northpoint\n\nDislike: lads, it’s Yishun",
+    "matched_neighbourhoods": [
+      "yishun"
+    ],
+    "sentiment": {
+      "neg": 0.198,
+      "neu": 0.611,
+      "pos": 0.191,
+      "compound": -0.026
+    }
+  },
+  {
+    "comment": "Marine Parade! Living by the sea with plenty of good schools and food options (Lagoon, Paya Lebar/Eunos, Joo Chiat/Katong). Also, it's near enough to the City/Airport/ Bugis area/ Orchard Road that going out is hardly a chore.\n\nCons are that there's no MRT (yet), so I hope you like taking the bus. \n\nOtherwise the estates are clean and well-maintained, and the neighbors are nice and respectable.",
+    "matched_neighbourhoods": [
+      "marine parade",
+      "orchard",
+      "paya lebar",
+      "bugis"
+    ],
+    "sentiment": {
+      "neg": 0.028,
+      "neu": 0.752,
+      "pos": 0.22,
+      "compound": 0.933
+    }
+  },
+  {
+    "comment": "Jurong West (Pioneer).\n\nGood: extremely walkable neighborhood, roads are small so you can just ~~jaywalk~~ do unsignalised crossings, traffic is low so you can cycle, shops close late, Prime Supermarket is open 24/7, and I am basically spoilt for food choice with multiple coffeeshops in the market area. The srisun prata here is really good. There are also multiple wholesale fruit vendors competing with each other every weekend so you can save a LOT on buying fruits/groceries. Very lively neighborhood overall, which I prefer over quieter places that feel dead. The ActiveSG gym at pioneer is good, one of the bigger ones. There are a TON of schools in the area. I'm in between two malls - Jurong Point is of course solid and actually very big - but then there's also another mall at Joo Koon with a huge Decathalon and FairPrice outlet. Bus frequnecy is very good with buses taking average 4 mins to arrive during peak hours and SBS's fleet appear to be 100% double-deckers lol. Overall I really can't complain much!\n\nBad: where I am, it still takes 10 mins to get to Pioneer MRT, although other people living closer can likely walk to the station in 5 mins. Pioneer MRT itself is also obviously further from most places (25-30 mins minimum to town which is bearable, but it is 50 mins to places like ang mo kio which really sucks). Cycling paths are a mess due to Jurong Region Line construction.",
+    "matched_neighbourhoods": [
+      "ang mo kio",
+      "jurong west"
+    ],
+    "sentiment": {
+      "neg": 0.041,
+      "neu": 0.839,
+      "pos": 0.12,
+      "compound": 0.963
+    }
+  },
+  {
+    "comment": "Live in Toh Yi.\n\nLikes: Food options, proximity to town (30mins by DTL) and our parents' place, quiet neighbourhood since residents are mostly PG or MG, good schools, very close to nature with rail corridor and Bukit Timah hill nearby, ntuc finest that's big and not crowded\n\nDislikes: dirty hawker centre",
+    "matched_neighbourhoods": [
+      "bukit timah"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.819,
+      "pos": 0.181,
+      "compound": 0.854
+    }
+  },
+  {
+    "comment": "Bukit purmei. stayed for at least 12 years liao from when I was 5 years old\n\nPros: very accessible, damn near vivo, orchard, mbs, cbd, short bus ride to NEL, CCL, TEL, EWL and NSL. The residents here mostly old people so the environment is pretty chill. Personally i like the location cause i regularly ride my bike to mbs and east coast park, and easy to go to school/grandparents house/bukit timah through rail corridor (by bike) \n\nCons: bus frequency not that great, not many good food nearby, morning and evening peak period causes traffic jam along lower delta rd\n\noverall i enjoy the location and i’m grateful to be staying in an old hdb flat where the rooms are actually a liveable size",
+    "matched_neighbourhoods": [
+      "bukit timah",
+      "orchard"
+    ],
+    "sentiment": {
+      "neg": 0.077,
+      "neu": 0.817,
+      "pos": 0.105,
+      "compound": 0.602
+    }
+  },
+  {
+    "comment": "I like my estate it's quiet ,  close to all the bike ride places , jurong lake gardens ,  bukit timah ,  Zheng hua park .\nAwesome",
+    "matched_neighbourhoods": [
+      "bukit timah"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.791,
+      "pos": 0.209,
+      "compound": 0.765
+    }
+  },
+  {
+    "comment": "Tanjong pagar/outram. Love it here but not exactly proud/not proud of it (unsure of why my residence should affect my sense of pride)\n\nPros: Everything is nearby and there are MRT lines going everywhere. My house is the default meeting place for most of my friend groups because of how much good food there is around me. Office is 4 bus stops away. Feels extremely safe. 2 hawkers within walking distance. Very little kids so it’s quiet.  Many many dogs. \n\nCons: Have not found one yet :”) Maybe the lack of big parks (closest is GBTB) so have to keep doing circuits of the same small parks after dinner unless we drive to GBTB",
+    "matched_neighbourhoods": [
+      "outram",
+      "tanjong pagar"
+    ],
+    "sentiment": {
+      "neg": 0.08,
+      "neu": 0.782,
+      "pos": 0.138,
+      "compound": 0.871
+    }
+  },
+  {
+    "comment": "Jurong East, for the simple fact that even during a heavy downpour, I can move anywhere within using my umbrella as little as possible. It's like a whole network of sheltered paths.",
+    "matched_neighbourhoods": [
+      "jurong east"
+    ],
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.925,
+      "pos": 0.075,
+      "compound": 0.361
+    }
+  }
+]
