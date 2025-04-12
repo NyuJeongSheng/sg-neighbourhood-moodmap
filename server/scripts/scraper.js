@@ -7,7 +7,9 @@ const btoa = require('btoa');
 const CLIENT_ID = 'YIqyqDHdK7wsVxzR0Iz1VQ';
 const CLIENT_SECRET = 'qTthamiAEcUfxgMjlk4ougtZRRiuDg';
 
-const POST_IDS = ['1fubtw7', '1581thm', 'r0e1uj', 'sqksm6'];
+// const POST_IDS = ['1fubtw7', '1581thm', 'r0e1uj', 'sqksm6', '137jihc', '1htiqn3'];
+const POST_IDS = ['137jihc', '1htiqn3', '14mp0be'];
+
 
 const outputDir = path.join(__dirname, '..', 'data');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
