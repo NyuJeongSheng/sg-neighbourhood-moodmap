@@ -63,5 +63,5 @@ with open(neigh_output_path, 'w', encoding='utf-8') as f:
 with open(comment_output_path, 'w', encoding='utf-8') as f:
     json.dump(comment_scores, f, indent=2, ensure_ascii=False)
 
-print(f"✅ Saved average sentiment to: {neigh_output_path}")
-print(f"✅ Saved per-comment sentiment to: {comment_output_path}")
+print(f"Saved average sentiment to: {neigh_output_path}")
+print(f"Saved per-comment sentiment to: {comment_output_path}")

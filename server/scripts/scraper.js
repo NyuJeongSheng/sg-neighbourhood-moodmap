@@ -7,11 +7,12 @@ const btoa = require('btoa');
 const CLIENT_ID = 'YIqyqDHdK7wsVxzR0Iz1VQ';
 const CLIENT_SECRET = 'qTthamiAEcUfxgMjlk4ougtZRRiuDg';
 
-// const POST_IDS = ['1fubtw7', '1581thm', 'r0e1uj', 'sqksm6', '137jihc', '1htiqn3'];
+// List of post IDs to scrape
 const POST_IDS = ['137jihc', '1htiqn3', '14mp0be'];
 
-
 const outputDir = path.join(__dirname, '..', 'data');
+const outputPath = path.join(outputDir, 'reddit_housing_comments.json');
+
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
 // Get OAuth token
@@ -69,7 +70,7 @@ async function getComments(postId, token) {
   return flatComments;
 }
 
-// Run and save flat output
+// Run and save flat output only if changed
 async function scrapeAll() {
   const token = await getAccessToken();
   let allComments = [];
@@ -80,9 +81,20 @@ async function scrapeAll() {
     allComments.push(...comments);
   }
 
-  const outputPath = path.join(outputDir, 'reddit_housing_comments.json');
-  fs.writeFileSync(outputPath, JSON.stringify(allComments, null, 2));
-  console.log(`Done! Saved to ${outputPath}`);
+  const newContent = JSON.stringify(allComments, null, 2);
+
+  // Only write if content has changed
+  let currentContent = null;
+  if (fs.existsSync(outputPath)) {
+    currentContent = fs.readFileSync(outputPath, 'utf-8');
+  }
+
+  if (currentContent !== newContent) {
+    fs.writeFileSync(outputPath, newContent);
+    console.log(`File updated: ${outputPath}`);
+  } else {
+    console.log(`No changes detected. File not updated.`);
+  }
 }
 
 scrapeAll();
