@@ -6,14 +6,19 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 script_dir = os.path.dirname(__file__)
 data_dir = os.path.join(script_dir, '..', 'data')
 comments_path = os.path.join(data_dir, 'reddit_housing_comments.json')
-neighbourhoods_path = os.path.join(data_dir, 'neighbourhoods.json')
+neighbourhoods_path = os.path.join(data_dir, 'neighbourhoods.json')  # now contains name, lat, lng
 neigh_output_path = os.path.join(data_dir, 'neighbourhood_sentiment.json')
 comment_output_path = os.path.join(data_dir, 'comment_sentiment_scores.json')
 
-# === Load Data ===
+# === Load Neighbourhood Data ===
 with open(neighbourhoods_path, 'r', encoding='utf-8') as f:
-    neighbourhoods = [n.lower() for n in json.load(f)]
+    neighbourhoods_data = json.load(f)
 
+# Extract names and lowercase for matching
+neighbourhood_map = {n['name'].lower(): n['name'] for n in neighbourhoods_data}
+neighbourhood_names_lower = list(neighbourhood_map.keys())
+
+# === Load Reddit Comments ===
 with open(comments_path, 'r', encoding='utf-8') as f:
     comments = json.load(f)
 
@@ -21,7 +26,7 @@ with open(comments_path, 'r', encoding='utf-8') as f:
 analyzer = SentimentIntensityAnalyzer()
 
 # === Storage ===
-neigh_sentiments = {n: [] for n in neighbourhoods}
+neigh_sentiments = {n: [] for n in neighbourhood_names_lower}
 comment_scores = []
 
 # === Process Comments ===
@@ -30,14 +35,12 @@ for entry in comments:
     comment_lower = comment_text.lower()
     sentiment = analyzer.polarity_scores(comment_text)
     compound_score = sentiment['compound']
-    matched_neighs = [n for n in neighbourhoods if n in comment_lower]
+    matched_neighs = [n for n in neighbourhood_names_lower if n in comment_lower]
 
     if matched_neighs:
-        # Store per-neighbourhood score
         for n in matched_neighs:
             neigh_sentiments[n].append(compound_score)
 
-        # Store per-comment record
         comment_scores.append({
             "comment": comment_text,
             "matched_neighbourhoods": matched_neighs,
@@ -49,12 +52,13 @@ for entry in comments:
             }
         })
 
-# === Compute Average Per-Neighbourhood ===
+# === Compute Averages (Only Name + Sentiment) ===
 neigh_result = {}
 for neigh, scores in neigh_sentiments.items():
     if scores:
         avg = sum(scores) / len(scores)
-        neigh_result[neigh] = round(avg, 3)
+        original_name = neighbourhood_map[neigh]
+        neigh_result[original_name] = round(avg, 3)
 
 # === Save Outputs ===
 with open(neigh_output_path, 'w', encoding='utf-8') as f:
