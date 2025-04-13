@@ -91,9 +91,6 @@
       "tanah merah",
       "bedok",
       "outram park",
-      "outram park",
-      "dhoby ghaut",
-      "dhoby ghaut",
       "stadium"
     ],
     "sentiment": {
@@ -107,8 +104,7 @@
     "comment": "Huh maybe I'm not very observant but I haven't connected the dots location wise like that. I stay in bishan and I have to say buses to the interchange are more frequent and don't get as crazy crowded as in my old hood tampines, both places I stay 2-3 stops from the interchange. Haven't noticed anything with regards to how friendly people are though.",
     "matched_neighbourhoods": [
       "bishan",
-      "tampines",
-      "bishan"
+      "tampines"
     ],
     "sentiment": {
       "neg": 0.025,
@@ -120,7 +116,6 @@
   {
     "comment": "Bishan resident here. I take bus to mrt every morning and it’s CRAZY packed each day even though I agree the buses are frequent.",
     "matched_neighbourhoods": [
-      "bishan",
       "bishan"
     ],
     "sentiment": {
@@ -216,8 +211,7 @@
     "comment": "I'm from BP but have rented and stayed in Serangoon/Hougang area for a few years, I very much prefer it there 😆 The atmosphere just felt a lot better. BP/CCK/West side in general just feels pretty dull and dead. NE side feels a lot more happening.",
     "matched_neighbourhoods": [
       "serangoon",
-      "hougang",
-      "serangoon"
+      "hougang"
     ],
     "sentiment": {
       "neg": 0.149,
@@ -254,8 +248,7 @@
     "comment": "Yay for Marine Parade! Bus connections are pretty sick whether you're headed east or west, or to the airport. The upcoming TEL stations are going to make public transport even better. Living here doesn't make you fantasize about car ownership so much. Can't imagine moving anywhere else, except maybe Bishan or Toa Payoh. Condolences to people who depend on feeder buses at all.",
     "matched_neighbourhoods": [
       "bishan",
-      "toa payoh",
-      "bishan"
+      "toa payoh"
     ],
     "sentiment": {
       "neg": 0.046,
@@ -268,8 +261,7 @@
     "comment": "I always feel like people are colder whenever I travel to Jurong East actually… - Tampines Resident",
     "matched_neighbourhoods": [
       "jurong east",
-      "tampines",
-      "jurong east"
+      "tampines"
     ],
     "sentiment": {
       "neg": 0.0,
@@ -283,8 +275,7 @@
     "matched_neighbourhoods": [
       "serangoon",
       "hougang",
-      "punggol",
-      "serangoon"
+      "punggol"
     ],
     "sentiment": {
       "neg": 0.087,
@@ -372,7 +363,6 @@
     "comment": "tpy. love it\n\nclose to town, less than 10 min train ride to orchard and 20 for raffles place. \n\nton of good food and hawkers. \n\nbus interchange too so can travel anywhere i want to no problem.",
     "matched_neighbourhoods": [
       "orchard",
-      "raffles place",
       "raffles place"
     ],
     "sentiment": {
@@ -545,7 +535,6 @@
   {
     "comment": "No? SERANGOON is boringgggg. Extremely boring. \n\nNex mall? I go there almost everytime because i have to pass inside the mall to get home from mrt. And i know excactly what shop's are there previously and currently have. Just name it. Mehhh. I hate Nex mall now. \n\nGood thing is...there's a new upcoming serangoon polyclinic opening in 2026 just opp nex mall. It's gonna be the biggest. \n\nAnd nothing much. Just so plain boring!! I wish i was staying in the west. So many things to adventure larh...",
     "matched_neighbourhoods": [
-      "serangoon",
       "serangoon"
     ],
     "sentiment": {
@@ -558,7 +547,6 @@
   {
     "comment": "Jurong West Extension\n\nLike: \n\nHave decent food options nearby (Jurong Point, Gek Poh, Boon Lay Place, Taman Jurong if feeling rich).\n\nLocation will have mrt station in a couple of years.\n\nNear NTU when I used to study there. \n\n\nDislike: \n\nIt is the western extension of the westernmost part of Singapore. Any meeting further than Jurong East requires a cost-benefit analysis and a budgeting consultation.\n\nI no longer need to be so near NTU.",
     "matched_neighbourhoods": [
-      "jurong east",
       "jurong east",
       "boon lay"
     ],
@@ -870,7 +858,6 @@
     "comment": "Bus 48 to Bugis and continuing westbound on the DTL or EWL works out great. Takes 40-45 minutes to get to Buona Vista, which is about as good as it gets in Singapore for the distance travelled. The only yucky thing about this route is waiting for bus 48, lol.",
     "matched_neighbourhoods": [
       "bugis",
-      "buona vista",
       "buona vista"
     ],
     "sentiment": {
@@ -896,7 +883,6 @@
     "comment": "Still way easier than getting a bus to Paya Lebar, switching to Circle Line, switching to TEL at Caldecott. Travel time isn't reduced by much or at all, but it's going to be seamless.",
     "matched_neighbourhoods": [
       "paya lebar",
-      "paya lebar",
       "caldecott"
     ],
     "sentiment": {
@@ -910,8 +896,7 @@
     "comment": "Upper Thomson! Most convenient, with all food, cafes and supper spots. There is a ton of nature at the reserviors, nature park, Bishan park. In between AMK, Shunfu &amp; Bishan with all the old markets. With the TEL line it’s 20 mins to orchard road 🫶🏻",
     "matched_neighbourhoods": [
       "bishan",
-      "orchard",
-      "bishan"
+      "orchard"
     ],
     "sentiment": {
       "neg": 0.0,
@@ -923,7 +908,6 @@
   {
     "comment": "I like the conveniences of Serangoon but my place faces a busy main road with significant noise pollution. I'll prefer a quieter estate and more greenery at my next home...",
     "matched_neighbourhoods": [
-      "serangoon",
       "serangoon"
     ],
     "sentiment": {
@@ -938,8 +922,7 @@
     "matched_neighbourhoods": [
       "serangoon",
       "kovan",
-      "hougang",
-      "serangoon"
+      "hougang"
     ],
     "sentiment": {
       "neg": 0.0,
@@ -967,8 +950,7 @@
     "matched_neighbourhoods": [
       "serangoon",
       "kovan",
-      "hougang",
-      "serangoon"
+      "hougang"
     ],
     "sentiment": {
       "neg": 0.117,
@@ -1030,9 +1012,7 @@
       "kovan",
       "hougang",
       "sengkang",
-      "punggol",
-      "paya lebar",
-      "serangoon"
+      "punggol"
     ],
     "sentiment": {
       "neg": 0.045,
@@ -1047,9 +1027,7 @@
       "bishan",
       "tampines",
       "bedok",
-      "paya lebar",
-      "paya lebar",
-      "bishan"
+      "paya lebar"
     ],
     "sentiment": {
       "neg": 0.0,
@@ -1149,8 +1127,7 @@
       "bukit batok",
       "simei",
       "bedok",
-      "clementi",
-      "jurong east"
+      "clementi"
     ],
     "sentiment": {
       "neg": 0.056,
@@ -1229,8 +1206,7 @@
       "paya lebar",
       "hougang",
       "sengkang",
-      "punggol",
-      "paya lebar"
+      "punggol"
     ],
     "sentiment": {
       "neg": 0.083,
@@ -1242,7 +1218,6 @@
   {
     "comment": "HI TENGAH AIRBASE THIS IS PAYA LEBAR CAN YOU HEAR MEEEEE!!!!????",
     "matched_neighbourhoods": [
-      "paya lebar",
       "paya lebar"
     ],
     "sentiment": {
@@ -1283,8 +1258,7 @@
       "bedok",
       "serangoon",
       "hougang",
-      "punggol",
-      "serangoon"
+      "punggol"
     ],
     "sentiment": {
       "neg": 0.036,
@@ -1360,8 +1334,7 @@
       "orchard",
       "eunos",
       "paya lebar",
-      "bugis",
-      "paya lebar"
+      "bugis"
     ],
     "sentiment": {
       "neg": 0.028,
@@ -1447,7 +1420,6 @@
   {
     "comment": "Jurong East, for the simple fact that even during a heavy downpour, I can move anywhere within using my umbrella as little as possible. It's like a whole network of sheltered paths.",
     "matched_neighbourhoods": [
-      "jurong east",
       "jurong east"
     ],
     "sentiment": {
