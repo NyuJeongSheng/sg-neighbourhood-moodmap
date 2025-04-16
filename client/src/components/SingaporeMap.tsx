@@ -4,8 +4,14 @@ import L, { Map as LeafletMap } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import neighbourhoods from '../../../server/data/neighbourhoods.json';
 import sentimentScoresRaw from '../../../server/data/neighbourhood_sentiment.json';
-import FilterPanel from './FilterPanel';
 import HamburgerMenu from './HamburgerMenu';
+import FilterPanel from './FilterPanel';
+import CommentsPanel from './CommentsPanel';
+
+const singaporeBounds = L.latLngBounds([
+  [1.230, 103.660],
+  [1.480, 103.960]
+]);
 
 const sentimentScores: Record<string, number> = sentimentScoresRaw;
 
@@ -28,31 +34,45 @@ const createColoredIcon = (color: string) =>
   });
 
 export default function SingaporeMap() {
-  const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [filters, setFilters] = useState<string[]>(['green', 'yellow', 'orange', 'red', 'grey']);
-  const [selectedNeighbourhood, setSelectedNeighbourhood] = useState<{ lat: number, lng: number } | null>(null);
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [selectedNeighbourhood, setSelectedNeighbourhood] = useState<{ name: string, lat: number, lng: number } | null>(null);
+  const [selectedName, setSelectedName] = useState<string | null>(null);
   const mapRef = useRef<LeafletMap | null>(null);
+  const markerRefs = useRef<Record<string, L.Marker>>({});
 
   const handleResetView = () => {
     const map = mapRef.current;
-    if (map) map.setView([1.3621, 103.7958], 13);
+    if (map) {
+      map.setView([1.3621, 103.7958], 13);
+    }
     setSelectedNeighbourhood(null);
+    setSelectedName(null);
   };
 
   return (
     <div>
       <HamburgerMenu
         isOpen={menuOpen}
-        onToggle={() => setMenuOpen(!menuOpen)}
         onSearch={(query) => setSearchQuery(query.toLowerCase())}
-        onSelectNeighbourhood={(lat: number | null, lng: number | null) => {
+        onToggle={() => setMenuOpen(!menuOpen)}
+        onSelectNeighbourhood={(lat, lng, name) => {
           const map = mapRef.current;
-          if (lat !== null && lng !== null && map) {
+          const match = neighbourhoods.find(n => n.name === name);
+          if (lat !== null && lng !== null && map && match) {
             map.setView([lat, lng], 15);
-            setSelectedNeighbourhood({ lat, lng });
+            setSelectedNeighbourhood({ name: match.name, lat, lng });
+            setSelectedName(match.name);
+        
+            // Open the popup
+            const marker = markerRefs.current[match.name];
+            if (marker) {
+              marker.openPopup();
+            }
           } else {
             setSelectedNeighbourhood(null);
+            setSelectedName(null);
           }
         }}
       />
@@ -73,59 +93,68 @@ export default function SingaporeMap() {
         touchZoom={false}
         boxZoom={false}
         keyboard={false}
-        maxBounds={L.latLngBounds([1.230, 103.660], [1.480, 103.960])}
+        maxBounds={singaporeBounds}
         maxBoundsViscosity={1.0}
         whenReady={() => {
           const map = mapRef.current;
-          if (!map) return;
-          map.touchZoom.disable();
-          map.boxZoom.disable();
-          map.keyboard.disable();
-          map.zoomControl?.remove();
+          if (map) {
+            map.touchZoom.disable();
+            map.boxZoom.disable();
+            map.keyboard.disable();
+            map.dragging.disable();
+            map.zoomControl?.remove();
+          }
         }}
         ref={mapRef}
       >
         <TileLayer url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png" />
 
-        {selectedNeighbourhood ? (
-          <Marker
-            position={[selectedNeighbourhood.lat, selectedNeighbourhood.lng]}
-            icon={createColoredIcon(getMarkerColor(
-              sentimentScores[
-              neighbourhoods.find(n =>
-                n.lat === selectedNeighbourhood.lat && n.lng === selectedNeighbourhood.lng
-              )?.name || ''
-              ]
-            ))}
-          >
-            <Popup>
-              <strong>
-                {
-                  neighbourhoods.find(n =>
-                    n.lat === selectedNeighbourhood.lat && n.lng === selectedNeighbourhood.lng
-                  )?.name
-                }
-              </strong>
-            </Popup>
-          </Marker>
-        ) : (
-          neighbourhoods.filter(n => n.name.toLowerCase().includes(searchQuery))
-            .map((n, i) => {
-              const score = sentimentScores[n.name];
-              const color = getMarkerColor(score);
-              if (!filters.includes(color)) return null;
-              const icon = createColoredIcon(color);
-              return (
-                <Marker key={i} position={[n.lat, n.lng]} icon={icon}>
-                  <Popup>
-                    <strong>{n.name}</strong><br />
-                    {score !== undefined ? `Sentiment: ${score}` : 'No sentiment data'}
-                  </Popup>
-                </Marker>
-              );
-            })
-        )}
+        {neighbourhoods
+          .filter((n) => n.name.toLowerCase().includes(searchQuery))
+          .map((n, i) => {
+            const score = sentimentScores[n.name];
+            const color = getMarkerColor(score);
+            if (!filters.includes(color)) return null;
+
+            const icon = createColoredIcon(color);
+            return (
+              <Marker
+                key={i}
+                position={[n.lat, n.lng]}
+                icon={icon}
+                eventHandlers={{
+                  click: () => {
+                    const map = mapRef.current;
+                    if (map) {
+                      console.log("relocate");
+                      console.log(n.lat + ", " + n.lng);
+                      map.setView([n.lat, n.lng], 15);
+                      setSelectedNeighbourhood({ name: n.name, lat: n.lat, lng: n.lng });
+                      setSelectedName(n.name);
+                    }
+                  }
+                }}
+                ref={(ref) => {
+                  if (ref) {
+                    markerRefs.current[n.name] = ref;
+                  }
+                }}
+              >
+                <Popup autoPan>
+                  <strong>{n.name}</strong><br />
+                  {score !== undefined ? `Sentiment: ${score}` : 'No sentiment data'}
+                </Popup>
+              </Marker>
+            );
+          })}
       </MapContainer>
+
+      {selectedName && (
+        <CommentsPanel
+          neighbourhoodName={selectedName}
+          onClose={handleResetView}
+        />
+      )}
     </div>
   );
 }
