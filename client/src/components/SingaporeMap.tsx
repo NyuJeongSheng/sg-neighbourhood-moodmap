@@ -60,16 +60,19 @@ export default function SingaporeMap() {
         onSelectNeighbourhood={(lat, lng, name) => {
           const map = mapRef.current;
           const match = neighbourhoods.find(n => n.name === name);
+        
           if (lat !== null && lng !== null && map && match) {
-            map.setView([lat, lng], 15);
             setSelectedNeighbourhood({ name: match.name, lat, lng });
             setSelectedName(match.name);
         
-            // Open the popup
-            const marker = markerRefs.current[match.name];
-            if (marker) {
-              marker.openPopup();
-            }
+            // First pan the marker exactly to the center
+            map.panTo([lat, lng], { animate: true });
+        
+            // Delay the popup slightly to avoid visual shift
+            setTimeout(() => {
+              const marker = markerRefs.current[match.name];
+              if (marker) marker.openPopup();
+            }, 250); // popup after pan animation
           } else {
             setSelectedNeighbourhood(null);
             setSelectedName(null);
@@ -129,6 +132,7 @@ export default function SingaporeMap() {
                       console.log("relocate");
                       console.log(n.lat + ", " + n.lng);
                       map.setView([n.lat, n.lng], 15);
+
                       setSelectedNeighbourhood({ name: n.name, lat: n.lat, lng: n.lng });
                       setSelectedName(n.name);
                     }
@@ -140,7 +144,7 @@ export default function SingaporeMap() {
                   }
                 }}
               >
-                <Popup autoPan>
+                <Popup autoPan={false}>
                   <strong>{n.name}</strong><br />
                   {score !== undefined ? `Sentiment: ${score}` : 'No sentiment data'}
                 </Popup>
