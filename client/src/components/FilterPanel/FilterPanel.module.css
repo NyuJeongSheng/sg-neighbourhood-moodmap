@@ -15,8 +15,6 @@
   
   .button {
     padding: 6px 12px;
-    background-color: #222;
-    color: white;
     border: none;
     border-radius: 6px;
     font-weight: 500;
@@ -25,8 +23,6 @@
   
   .buttonReset {
     padding: 8px 20px;
-    background-color: #222;
-    color: white;
     border: none;
     border-radius: 6px;
     font-weight: bold;
@@ -40,7 +36,6 @@
     cursor: pointer;
     font-size: 14px;
     font-family: sans-serif;
-    color: #333;
     gap: 4px;
   }
   
