@@ -2,11 +2,11 @@ import { useState, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L, { Map as LeafletMap } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import neighbourhoods from '../../../server/data/neighbourhoods.json';
-import sentimentScoresRaw from '../../../server/data/neighbourhood_sentiment.json';
-import HamburgerMenu from './HamburgerMenu';
-import FilterPanel from './FilterPanel';
-import CommentsPanel from './CommentsPanel';
+import neighbourhoods from '../../../../server/data/neighbourhoods.json';
+import sentimentScoresRaw from '../../../../server/data/neighbourhood_sentiment.json';
+import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
+import FilterPanel from '../FilterPanel/FilterPanel';
+import CommentsPanel from '../CommentsPanel/CommentsPanel';
 
 const singaporeBounds = L.latLngBounds([
   [1.230, 103.660],
@@ -129,10 +129,7 @@ export default function SingaporeMap() {
                   click: () => {
                     const map = mapRef.current;
                     if (map) {
-                      console.log("relocate");
-                      console.log(n.lat + ", " + n.lng);
                       map.setView([n.lat, n.lng], 15);
-
                       setSelectedNeighbourhood({ name: n.name, lat: n.lat, lng: n.lng });
                       setSelectedName(n.name);
                     }
