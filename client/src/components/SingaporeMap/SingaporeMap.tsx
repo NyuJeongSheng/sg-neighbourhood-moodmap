@@ -7,6 +7,7 @@ import sentimentScoresRaw from '../../../../server/data/neighbourhood_sentiment.
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 import FilterPanel from '../FilterPanel/FilterPanel';
 import CommentsPanel from '../CommentsPanel/CommentsPanel';
+import SettingsPanel from '../SettingsPanel/SettingsPanel';
 
 const singaporeBounds = L.latLngBounds([
   [1.230, 103.660],
@@ -86,6 +87,8 @@ export default function SingaporeMap() {
         selectedNeighbourhood={selectedNeighbourhood}
         onResetView={handleResetView}
       />
+
+      <SettingsPanel />
 
       <MapContainer
         center={[1.3621, 103.7958]}
