@@ -37,7 +37,8 @@ function extractCommentTree(node, flatList, postId, title) {
     flatList.push({
       post_id: postId,
       title: title,
-      comment: node.data.body
+      comment: node.data.body,
+      timestamp: new Date(node.data.created_utc * 1000).toISOString()
     });
 
     const replies = node.data.replies;

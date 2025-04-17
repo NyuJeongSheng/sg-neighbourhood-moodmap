@@ -43,6 +43,7 @@ for entry in comments:
 
         comment_scores.append({
             "comment": comment_text,
+            "timestamp": entry.get("timestamp"),
             "matched_neighbourhoods": matched_neighs,
             "sentiment": {
                 "neg": round(sentiment['neg'], 3),
