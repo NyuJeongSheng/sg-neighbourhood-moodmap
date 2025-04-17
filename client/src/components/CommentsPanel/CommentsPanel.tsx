@@ -72,15 +72,20 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
   const generateTrend = (list: CommentEntry[]) => {
     const withDate = list
       .filter(entry => entry.timestamp)
-      .map(entry => ({
-        date: new Date(entry.timestamp!).toISOString().split('T')[0],
-        sentiment: entry.sentiment.compound,
-      }))
-      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-
+      .map(entry => {
+        const ts = new Date(entry.timestamp!);
+        return {
+          date: ts.toLocaleDateString('en-GB'),
+          fullTime: ts.getTime(),
+          sentiment: entry.sentiment.compound,
+        };
+      })
+      .sort((a, b) => a.fullTime - b.fullTime)
+      .map(({ date, sentiment }) => ({ date, sentiment }));
+  
     setTrendData(withDate);
   };
-
+  
   if (!neighbourhoodName || averageScore === null) return null;
 
   return (

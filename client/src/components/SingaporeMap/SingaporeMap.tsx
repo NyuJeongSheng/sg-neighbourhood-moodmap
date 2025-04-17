@@ -10,8 +10,8 @@ import CommentsPanel from '../CommentsPanel/CommentsPanel';
 import SettingsPanel from '../SettingsPanel/SettingsPanel';
 
 const singaporeBounds = L.latLngBounds([
-  [1.230, 103.660],
-  [1.480, 103.960]
+  [1.200, 103.600], // further southwest
+  [1.500, 104.020]  // further northeast
 ]);
 
 const sentimentScores: Record<string, number> = sentimentScoresRaw;
@@ -63,6 +63,7 @@ export default function SingaporeMap() {
           const match = neighbourhoods.find(n => n.name === name);
         
           if (lat !== null && lng !== null && map && match) {
+            map.setView([lat, lng], 15, { animate: true });
             setSelectedNeighbourhood({ name: match.name, lat, lng });
             setSelectedName(match.name);
         
