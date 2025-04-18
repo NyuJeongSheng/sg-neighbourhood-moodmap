@@ -42,6 +42,8 @@ export default function SingaporeMap() {
   const [selectedName, setSelectedName] = useState<string | null>(null);
   const mapRef = useRef<LeafletMap | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
+  // const [dataSource, setDataSource] = useState<'csv' | 'online'>('csv');
+  const [loading, setLoading] = useState(false);
 
   const handleResetView = () => {
     const map = mapRef.current;
@@ -54,6 +56,23 @@ export default function SingaporeMap() {
 
   return (
     <div>
+      {loading && (
+        <div style={{
+          position: 'absolute',
+          top: 0, left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundColor: 'rgba(255,255,255,0.8)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '20px',
+          fontWeight: 'bold',
+          zIndex: 9999
+        }}>
+          Updating map data...
+        </div>
+      )}
       <HamburgerMenu
         isOpen={menuOpen}
         onSearch={(query) => setSearchQuery(query.toLowerCase())}
@@ -61,15 +80,15 @@ export default function SingaporeMap() {
         onSelectNeighbourhood={(lat, lng, name) => {
           const map = mapRef.current;
           const match = neighbourhoods.find(n => n.name === name);
-        
+
           if (lat !== null && lng !== null && map && match) {
             map.setView([lat, lng], 15, { animate: true });
             setSelectedNeighbourhood({ name: match.name, lat, lng });
             setSelectedName(match.name);
-        
+
             // First pan the marker exactly to the center
             map.panTo([lat, lng], { animate: true });
-        
+
             // Delay the popup slightly to avoid visual shift
             setTimeout(() => {
               const marker = markerRefs.current[match.name];
@@ -89,7 +108,10 @@ export default function SingaporeMap() {
         onResetView={handleResetView}
       />
 
-      <SettingsPanel />
+      <SettingsPanel
+        // onDataSourceChange={() => setDataSource()}
+        setLoading={setLoading}
+      />
 
       <MapContainer
         center={[1.3621, 103.7958]}

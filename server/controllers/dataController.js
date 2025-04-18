@@ -8,7 +8,7 @@ const runScraperAndAnalyze = async (req, res) => {
         await runScraper();
         await runSentimentAnalysis();
         watchRedditJson(); // ✅ start watcher only after first scrape
-        res.status(200).json({ message: 'Scraper, analysis complete. Watcher started.' });
+        res.status(200).json({ message: 'Scraper and analysis complete. Watcher started.' });
     } catch (error) {
         res.status(500).json({ error: error.message || 'Failed to run scraper and sentiment analyzer.' });
     }
@@ -17,7 +17,8 @@ const runScraperAndAnalyze = async (req, res) => {
 const runCSVProcessing = async (req, res) => {
     try {
         await processCSV();
-        res.status(200).json({ message: 'CSV data processed successfully.' });
+        await runSentimentAnalysis();
+        res.status(200).json({ message: 'CSV data processed successfully and analysis complete.' });
     } catch (err) {
         res.status(500).json({ error: 'Failed to process CSV data.' });
     }

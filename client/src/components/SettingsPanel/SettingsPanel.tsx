@@ -1,9 +1,42 @@
 import { useState } from 'react';
 import { Settings } from 'lucide-react';
 
-export default function SettingsPanel() {
+interface SettingsPanelProps {
+  // onDataSourceChange: (source: 'online' | 'csv') => void;
+  setLoading: (loading: boolean) => void;
+}
+
+export default function SettingsPanel({ setLoading }: SettingsPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const [dataSource, setDataSource] = useState<'online' | 'csv'>('online');
+  const [dataSource, setDataSource] = useState<'online' | 'csv'>('csv');
+
+  const handleChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const newSource = e.target.value as 'online' | 'csv';
+    setDataSource(newSource);
+    setLoading(true);
+
+    // Call appropriate backend API
+    try {
+      const endpoint =
+        newSource === 'online'
+          ? 'http://localhost:5000/api/scrape'
+          : 'http://localhost:5000/api/process-csv';
+
+      const res = await fetch(endpoint, {
+        method: 'POST',
+      });
+
+      if (!res.ok) throw new Error('Failed to trigger data update');
+
+      console.log(`✅ ${newSource.toUpperCase()} data pipeline triggered.`);
+
+      // Notify parent to re-fetch data
+    } catch (err) {
+      console.error('❌ Error updating data source:', err);
+    } finally {
+      setLoading(false); // hide loading overlay
+    }
+  };
 
   return (
     <div style={{ position: 'absolute', top: '16px', right: '16px', zIndex: 1500 }}>
@@ -50,7 +83,7 @@ export default function SettingsPanel() {
           <select
             id="data-source"
             value={dataSource}
-            onChange={(e) => setDataSource(e.target.value as 'online' | 'csv')}
+            onChange={handleChange}
             style={{
               width: '100%',
               padding: '6px',
@@ -64,8 +97,8 @@ export default function SettingsPanel() {
               MozAppearance: 'none',
             }}
           >
-            <option value="online">Local data</option>
-            <option value="csv">Online (Reddit)</option>
+            <option value="csv">Local data</option>
+            <option value="online">Online (Reddit)</option>
           </select>
         </div>
       )}
