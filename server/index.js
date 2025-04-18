@@ -8,6 +8,7 @@ const dataRoute = require('./routes/dataRoute.js');
 
 const { processCSV } = require('./services/csvService');
 const { runSentimentAnalysis } = require('./services/sentimentService');
+const { watchRedditJson } = require('./services/fileWatcher.js');
 
 app.use(cors());
 
@@ -29,17 +30,15 @@ app.listen(PORT, () => {
     // }, 15000);
 
     // Startup data pipeline
-    (async () => {
-        try {
-            console.log('Processing CSV...');
-            await processCSV();
+    // (async () => {
+    //     try {
+    //         watchRedditJson();
+    //         console.log('Processing CSV...');
+    //         await processCSV();
 
-            console.log('Running sentiment analysis...');
-            await runSentimentAnalysis();
-
-            console.log('CSV + Sentiment pipeline complete.');
-        } catch (err) {
-            console.error('Error during startup:', err);
-        }
-    })();
+    //         console.log('CSV + Sentiment pipeline complete.');
+    //     } catch (err) {
+    //         console.error('Error during startup:', err);
+    //     }
+    // })();
 });
