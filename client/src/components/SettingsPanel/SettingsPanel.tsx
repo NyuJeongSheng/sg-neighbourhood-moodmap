@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Settings } from 'lucide-react';
+import sentimentData from '../../../../server/data/comment_sentiment_scores.json'; // adjust path if needed
 
 interface SettingsPanelProps {
   // onDataSourceChange: (source: 'online' | 'csv') => void;
@@ -9,6 +10,20 @@ interface SettingsPanelProps {
 export default function SettingsPanel({ setLoading }: SettingsPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [dataSource, setDataSource] = useState<'online' | 'csv'>('csv');
+
+  useEffect(() => {
+    try {
+      const postId = sentimentData?.[0]?.post_id;
+      if (postId !== null && postId !== undefined) {
+        setDataSource('online');
+      } else {
+        setDataSource('csv');
+      }
+    } catch (err) {
+      console.error('Failed to load static sentiment data:', err);
+      setDataSource('csv');
+    }
+  }, []);
 
   const handleChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newSource = e.target.value as 'online' | 'csv';
