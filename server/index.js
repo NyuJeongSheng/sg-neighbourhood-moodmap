@@ -9,6 +9,8 @@ const dataRoute = require('./routes/dataRoute.js');
 const { processCSV } = require('./services/csvService');
 const { runSentimentAnalysis } = require('./services/sentimentService');
 const { watchRedditJson } = require('./services/fileWatcher.js');
+const fs = require('fs');
+const path = require('path');
 
 app.use(cors());
 
@@ -41,4 +43,25 @@ app.listen(PORT, () => {
     //         console.error('Error during startup:', err);
     //     }
     // })();
+
+    const sentimentPath = path.join(__dirname, 'data', 'neighbourhood_sentiment.json');
+
+    (async () => {
+        try {
+            // If sentiment file doesn't exist, run CSV processing
+            if (!fs.existsSync(sentimentPath)) {
+                console.log('[BOOT] neighbourhood_sentiment.json not found. Running CSV pipeline...');
+                await processCSV();
+                await runSentimentAnalysis('csv');
+                console.log('[BOOT] CSV + Sentiment pipeline complete.');
+            } else {
+                console.log('[BOOT] neighbourhood_sentiment.json already exists. Skipping CSV pipeline.');
+            }
+
+            // Start watcher for online mode (optional)
+            // watchRedditJson();
+        } catch (err) {
+            console.error('[BOOT] Error during startup:', err);
+        }
+    })();
 });
