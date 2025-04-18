@@ -5,14 +5,6 @@ export default function SettingsPanel() {
   const [isOpen, setIsOpen] = useState(false);
   const [dataSource, setDataSource] = useState<'online' | 'csv'>('online');
 
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (file) {
-      console.log('📁 Uploaded CSV file:', file.name);
-      // TODO: parse and store CSV file here
-    }
-  };
-
   return (
     <div style={{ position: 'absolute', top: '16px', right: '16px', zIndex: 1500 }}>
       {/* Settings Icon Button */}
@@ -72,25 +64,9 @@ export default function SettingsPanel() {
               MozAppearance: 'none',
             }}
           >
-            <option value="online">Online (Reddit)</option>
-            <option value="csv">Import from CSV</option>
+            <option value="online">Local data</option>
+            <option value="csv">Online (Reddit)</option>
           </select>
-
-          {/* File Upload Input (only if CSV selected) */}
-          {dataSource === 'csv' && (
-            <div>
-              <label htmlFor="csv-upload" style={{ fontSize: '13px', marginBottom: '4px', display: 'block' }}>
-                Upload CSV File
-              </label>
-              <input
-                id="csv-upload"
-                type="file"
-                accept=".csv"
-                onChange={handleFileUpload}
-                style={{ fontSize: '13px' }}
-              />
-            </div>
-          )}
         </div>
       )}
     </div>

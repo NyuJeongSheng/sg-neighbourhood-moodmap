@@ -9,7 +9,6 @@ const outputPath = path.join(__dirname, '..', 'data', 'neighbourhood_comments.js
 async function processCSV() {
   return new Promise((resolve, reject) => {
     const results = [];
-
     fs.createReadStream(inputPath)
       .pipe(csvParser())
       .on('data', (row) => {
@@ -17,7 +16,7 @@ async function processCSV() {
           results.push({
             comment: row.comment,
             neighbourhood: row.neighbourhood,
-            timestamp: new Date(row.timestamp).toISOString(),
+            timestamp: new Date(Number(row.timestamp)).toISOString()
           });
         }
       })
