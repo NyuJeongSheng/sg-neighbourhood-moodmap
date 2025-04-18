@@ -11,7 +11,7 @@ const CLIENT_SECRET = 'qTthamiAEcUfxgMjlk4ougtZRRiuDg';
 const POST_IDS = ['137jihc', '1htiqn3', '14mp0be'];
 
 const outputDir = path.join(__dirname, '..', 'data');
-const outputPath = path.join(outputDir, 'reddit_housing_comments.json');
+const outputPath = path.join(outputDir, 'neighbourhood_comments.json');
 
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 

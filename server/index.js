@@ -3,14 +3,13 @@ const cors = require('cors');
 const app = express();
 const PORT = 5000;
 
-const apiRoutes = require('./routes/neighbourhoodRoute.js'); // <-- your custom routes
-
-const { watchRedditJson } = require('./services/fileWatcher');
-const { runScraper } = require('./services/scraperService');
+const neighbourhoodRoute = require('./routes/neighbourhoodRoute.js'); // <-- your custom routes
+const dataRoute = require('./routes/dataRoute.js');
 
 app.use(cors());
 
-app.use('/api', apiRoutes); // <-- mount them at /api
+app.use('/api', neighbourhoodRoute); // <-- mount them at /api
+app.use('/api', dataRoute);
 
 app.get('/', (req, res) => {
     res.send('Server is up and running.');
@@ -20,9 +19,9 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 
-    watchRedditJson();               // start the file watcher
-    runScraper().catch(console.error);
-    setInterval(() => {
-        runScraper().catch(console.error);
-    }, 15000);
+    // watchRedditJson();               // start the file watcher
+    // runScraper().catch(console.error);
+    // setInterval(() => {
+    //     runScraper().catch(console.error);
+    // }, 15000);
 });

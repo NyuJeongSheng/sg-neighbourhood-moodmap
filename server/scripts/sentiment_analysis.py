@@ -5,7 +5,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # === Paths ===
 script_dir = os.path.dirname(__file__)
 data_dir = os.path.join(script_dir, '..', 'data')
-comments_path = os.path.join(data_dir, 'reddit_housing_comments.json')
+comments_path = os.path.join(data_dir, 'neighbourhood_comments.json')
 neighbourhoods_path = os.path.join(data_dir, 'neighbourhoods.json')  # now contains name, lat, lng
 neigh_output_path = os.path.join(data_dir, 'neighbourhood_sentiment.json')
 comment_output_path = os.path.join(data_dir, 'comment_sentiment_scores.json')
