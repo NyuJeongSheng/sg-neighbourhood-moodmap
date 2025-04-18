@@ -1,7 +1,7 @@
 const { runScraper } = require('../services/scraperService');
 const { runSentimentAnalysis } = require('../services/sentimentService');
 const { watchRedditJson } = require('../services/fileWatcher'); // ✅ import here
-const { processCSV } = require('../scripts/read_csv');
+const { processCSV } = require('../services/csvService');
 
 const runScraperAndAnalyze = async (req, res) => {
     try {

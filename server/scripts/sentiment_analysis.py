@@ -31,11 +31,23 @@ comment_scores = []
 
 # === Process Comments ===
 for entry in comments:
-    comment_text = entry['comment']
+    comment_text = entry.get('comment', '')
     comment_lower = comment_text.lower()
     sentiment = analyzer.polarity_scores(comment_text)
     compound_score = sentiment['compound']
-    matched_neighs = [n for n in neighbourhood_names_lower if n in comment_lower]
+
+    # Default values for optional fields
+    post_id = entry.get('post_id') if 'post_id' in entry else None
+    timestamp = entry.get('timestamp')
+
+    # Detect matched neighbourhoods
+    if 'neighbourhood' in entry:
+        # Use directly provided neighbourhood
+        n = entry['neighbourhood'].lower()
+        matched_neighs = [n] if n in neighbourhood_names_lower else []
+    else:
+        # Fallback: search in comment text
+        matched_neighs = [n for n in neighbourhood_names_lower if n in comment_lower]
 
     if matched_neighs:
         for n in matched_neighs:
@@ -43,7 +55,8 @@ for entry in comments:
 
         comment_scores.append({
             "comment": comment_text,
-            "timestamp": entry.get("timestamp"),
+            "post_id": post_id,
+            "timestamp": timestamp,
             "matched_neighbourhoods": matched_neighs,
             "sentiment": {
                 "neg": round(sentiment['neg'], 3),
@@ -52,6 +65,7 @@ for entry in comments:
                 "compound": round(compound_score, 3)
             }
         })
+
 
 # === Compute Averages (Only Name + Sentiment) ===
 neigh_result = {}

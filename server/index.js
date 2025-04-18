@@ -6,6 +6,9 @@ const PORT = 5000;
 const neighbourhoodRoute = require('./routes/neighbourhoodRoute.js'); // <-- your custom routes
 const dataRoute = require('./routes/dataRoute.js');
 
+const { processCSV } = require('./services/csvService');
+const { runSentimentAnalysis } = require('./services/sentimentService');
+
 app.use(cors());
 
 app.use('/api', neighbourhoodRoute); // <-- mount them at /api
@@ -24,4 +27,19 @@ app.listen(PORT, () => {
     // setInterval(() => {
     //     runScraper().catch(console.error);
     // }, 15000);
+
+    // Startup data pipeline
+    (async () => {
+        try {
+            console.log('Processing CSV...');
+            await processCSV();
+
+            console.log('Running sentiment analysis...');
+            await runSentimentAnalysis();
+
+            console.log('CSV + Sentiment pipeline complete.');
+        } catch (err) {
+            console.error('Error during startup:', err);
+        }
+    })();
 });
