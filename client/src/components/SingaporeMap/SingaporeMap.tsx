@@ -7,10 +7,11 @@ import sentimentScoresRaw from '../../../../server/data/neighbourhood_sentiment.
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 import FilterPanel from '../FilterPanel/FilterPanel';
 import CommentsPanel from '../CommentsPanel/CommentsPanel';
+import SettingsPanel from '../SettingsPanel/SettingsPanel';
 
 const singaporeBounds = L.latLngBounds([
-  [1.230, 103.660],
-  [1.480, 103.960]
+  [1.200, 103.600], // further southwest
+  [1.500, 104.020]  // further northeast
 ]);
 
 const sentimentScores: Record<string, number> = sentimentScoresRaw;
@@ -41,6 +42,8 @@ export default function SingaporeMap() {
   const [selectedName, setSelectedName] = useState<string | null>(null);
   const mapRef = useRef<LeafletMap | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
+  // const [dataSource, setDataSource] = useState<'csv' | 'online'>('csv');
+  const [loading, setLoading] = useState(false);
 
   const handleResetView = () => {
     const map = mapRef.current;
@@ -53,6 +56,23 @@ export default function SingaporeMap() {
 
   return (
     <div>
+      {loading && (
+        <div style={{
+          position: 'absolute',
+          top: 0, left: 0,
+          width: '100%',
+          height: '100%',
+          backgroundColor: 'rgba(255,255,255,0.8)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '20px',
+          fontWeight: 'bold',
+          zIndex: 9999
+        }}>
+          Updating map data...
+        </div>
+      )}
       <HamburgerMenu
         isOpen={menuOpen}
         onSearch={(query) => setSearchQuery(query.toLowerCase())}
@@ -60,14 +80,15 @@ export default function SingaporeMap() {
         onSelectNeighbourhood={(lat, lng, name) => {
           const map = mapRef.current;
           const match = neighbourhoods.find(n => n.name === name);
-        
+
           if (lat !== null && lng !== null && map && match) {
+            map.setView([lat, lng], 15, { animate: true });
             setSelectedNeighbourhood({ name: match.name, lat, lng });
             setSelectedName(match.name);
-        
+
             // First pan the marker exactly to the center
             map.panTo([lat, lng], { animate: true });
-        
+
             // Delay the popup slightly to avoid visual shift
             setTimeout(() => {
               const marker = markerRefs.current[match.name];
@@ -85,6 +106,11 @@ export default function SingaporeMap() {
         setFilters={setFilters}
         selectedNeighbourhood={selectedNeighbourhood}
         onResetView={handleResetView}
+      />
+
+      <SettingsPanel
+        // onDataSourceChange={() => setDataSource()}
+        setLoading={setLoading}
       />
 
       <MapContainer

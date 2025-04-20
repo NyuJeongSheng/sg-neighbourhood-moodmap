@@ -11,7 +11,7 @@ const CLIENT_SECRET = 'qTthamiAEcUfxgMjlk4ougtZRRiuDg';
 const POST_IDS = ['137jihc', '1htiqn3', '14mp0be'];
 
 const outputDir = path.join(__dirname, '..', 'data');
-const outputPath = path.join(outputDir, 'reddit_housing_comments.json');
+const outputPath = path.join(outputDir, 'neighbourhood_comments.json');
 
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
@@ -37,7 +37,8 @@ function extractCommentTree(node, flatList, postId, title) {
     flatList.push({
       post_id: postId,
       title: title,
-      comment: node.data.body
+      comment: node.data.body,
+      timestamp: new Date(node.data.created_utc * 1000).toISOString()
     });
 
     const replies = node.data.replies;

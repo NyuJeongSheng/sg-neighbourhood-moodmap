@@ -22,5 +22,4 @@ const getCommentsByNeighbourhood = (req, res) => {
 
 module.exports = {
     getCommentsByNeighbourhood,
-    // other exported functions here...
 };
