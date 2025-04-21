@@ -3,10 +3,10 @@ const { spawn } = require('child_process');
 
 const analyzerScript = path.join(__dirname, '..', 'scripts', 'sentiment_analysis.py');
 
-function runSentimentAnalysis() {
+function runSentimentAnalysis(model = 'vader') {
     return new Promise((resolve, reject) => {
-        console.log('\nRunning sentiment_analysis.py...');
-        const py = spawn('python', [analyzerScript]);
+        console.log(`\nRunning sentiment_analysis.py with model: ${model}`);
+        const py = spawn('python', [analyzerScript, '--model', model]);
 
         py.stdout.on('data', (data) => {
             console.log(`Output: ${data.toString().trim()}`);

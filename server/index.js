@@ -13,6 +13,7 @@ const fs = require('fs');
 const path = require('path');
 
 app.use(cors());
+app.use(express.json());
 
 app.use('/api', neighbourhoodRoute); // <-- mount them at /api
 app.use('/api', dataRoute);

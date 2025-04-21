@@ -32,7 +32,7 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
   const [showTrend, setShowTrend] = useState(false);
   const [trendData, setTrendData] = useState<TrendPoint[]>([]);
 
-  const sentimentScores: Record<string, number> = sentimentScoresRaw;
+  const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
 
   useEffect(() => {
     if (!neighbourhoodName) return;

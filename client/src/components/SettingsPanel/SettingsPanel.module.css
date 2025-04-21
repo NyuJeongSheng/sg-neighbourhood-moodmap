@@ -1,0 +1,55 @@
+.panelContainer {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1500;
+  }
+  
+  .settingsButton {
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdownPanel {
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    z-index: 1501;
+  }
+  
+  .panelTitle {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: block;
+  }
+  
+  .select {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    background-color: #f1f5f9;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }

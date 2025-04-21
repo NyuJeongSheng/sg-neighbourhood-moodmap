@@ -14,7 +14,7 @@ const singaporeBounds = L.latLngBounds([
   [1.500, 104.020]  // further northeast
 ]);
 
-const sentimentScores: Record<string, number> = sentimentScoresRaw;
+const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
 
 const getMarkerColor = (score: number | undefined): string => {
   if (score === undefined) return 'grey';

@@ -7,10 +7,10 @@
       "marymount"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -21,10 +21,10 @@
       "pasir ris"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -35,10 +35,10 @@
       "chinatown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -49,10 +49,10 @@
       "redhill"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -63,10 +63,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -77,10 +77,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -91,10 +91,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -105,10 +105,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -119,10 +119,10 @@
       "tanah merah"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -133,10 +133,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -147,10 +147,10 @@
       "marsiling"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -161,10 +161,10 @@
       "tiong bahru"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -175,10 +175,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -189,10 +189,10 @@
       "botanic gardens"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -203,10 +203,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -217,10 +217,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -231,10 +231,10 @@
       "holland village"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -245,10 +245,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -259,10 +259,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -273,10 +273,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -287,10 +287,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -301,10 +301,10 @@
       "bras basah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -315,10 +315,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -329,10 +329,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -343,10 +343,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -357,10 +357,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -371,10 +371,10 @@
       "khatib"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -385,10 +385,10 @@
       "pasir ris"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -399,10 +399,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -413,10 +413,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -427,10 +427,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -441,10 +441,10 @@
       "punggol"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -455,10 +455,10 @@
       "kallang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -469,10 +469,10 @@
       "raffles place"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -483,10 +483,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -497,10 +497,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -511,10 +511,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -525,10 +525,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -539,10 +539,10 @@
       "tampines"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -553,10 +553,10 @@
       "pasir ris"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -567,10 +567,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -581,10 +581,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -595,10 +595,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -609,10 +609,10 @@
       "marsiling"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -623,10 +623,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -637,10 +637,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -651,10 +651,10 @@
       "yew tee"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -665,10 +665,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -679,10 +679,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -693,10 +693,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -707,10 +707,10 @@
       "tanah merah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -721,10 +721,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -735,10 +735,10 @@
       "little india"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -749,10 +749,10 @@
       "kent ridge"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -763,10 +763,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -777,10 +777,10 @@
       "choa chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -791,10 +791,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -805,10 +805,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -819,10 +819,10 @@
       "clementi"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -833,10 +833,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -847,10 +847,10 @@
       "kallang"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -861,10 +861,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -875,10 +875,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -889,10 +889,10 @@
       "aljunied"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -903,10 +903,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -917,10 +917,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -931,10 +931,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -945,10 +945,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -959,10 +959,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -973,10 +973,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -987,10 +987,10 @@
       "chinese garden"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -1001,10 +1001,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -1015,10 +1015,10 @@
       "tampines"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -1029,10 +1029,10 @@
       "tampines"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -1043,10 +1043,10 @@
       "kent ridge"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -1057,10 +1057,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -1071,10 +1071,10 @@
       "one-north"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -1085,10 +1085,10 @@
       "caldecott"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -1099,10 +1099,10 @@
       "joo koon"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -1113,10 +1113,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -1127,10 +1127,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -1141,10 +1141,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -1155,10 +1155,10 @@
       "khatib"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -1169,10 +1169,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -1183,10 +1183,10 @@
       "tanah merah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -1197,10 +1197,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -1211,10 +1211,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -1225,10 +1225,10 @@
       "woodleigh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -1239,10 +1239,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -1253,10 +1253,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -1267,10 +1267,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -1281,10 +1281,10 @@
       "ang mo kio"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -1295,10 +1295,10 @@
       "tiong bahru"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -1309,10 +1309,10 @@
       "chinese garden"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -1323,10 +1323,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -1337,10 +1337,10 @@
       "simei"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -1351,10 +1351,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -1365,10 +1365,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -1379,10 +1379,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -1393,10 +1393,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -1407,10 +1407,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -1421,10 +1421,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -1435,10 +1435,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -1449,10 +1449,10 @@
       "dover"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -1463,10 +1463,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -1477,10 +1477,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -1491,10 +1491,10 @@
       "orchard"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -1505,10 +1505,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -1519,10 +1519,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -1533,10 +1533,10 @@
       "chinese garden"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -1547,10 +1547,10 @@
       "botanic gardens"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -1561,10 +1561,10 @@
       "changi airport"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -1575,10 +1575,10 @@
       "marymount"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -1589,10 +1589,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -1603,10 +1603,10 @@
       "macpherson"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -1617,10 +1617,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -1631,10 +1631,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -1645,10 +1645,10 @@
       "clarke quay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -1659,10 +1659,10 @@
       "chinese garden"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -1673,10 +1673,10 @@
       "sengkang"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -1687,10 +1687,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -1701,10 +1701,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -1715,10 +1715,10 @@
       "queenstown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -1729,10 +1729,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -1743,10 +1743,10 @@
       "holland village"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -1757,10 +1757,10 @@
       "tai seng"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -1771,10 +1771,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -1785,10 +1785,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -1799,10 +1799,10 @@
       "redhill"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -1813,10 +1813,10 @@
       "dover"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -1827,10 +1827,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -1841,10 +1841,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -1855,10 +1855,10 @@
       "holland village"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -1869,10 +1869,10 @@
       "khatib"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -1883,10 +1883,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -1897,10 +1897,10 @@
       "pasir ris"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -1911,10 +1911,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -1925,10 +1925,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -1939,10 +1939,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -1953,10 +1953,10 @@
       "sengkang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -1967,10 +1967,10 @@
       "ang mo kio"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -1981,10 +1981,10 @@
       "gul circle"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -1995,10 +1995,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -2009,10 +2009,10 @@
       "eunos"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -2023,10 +2023,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -2037,10 +2037,10 @@
       "one-north"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -2051,10 +2051,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -2065,10 +2065,10 @@
       "braddell"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -2079,10 +2079,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -2093,10 +2093,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -2107,10 +2107,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -2121,10 +2121,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -2135,10 +2135,10 @@
       "outram park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -2149,10 +2149,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -2163,10 +2163,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -2177,10 +2177,10 @@
       "joo koon"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -2191,10 +2191,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -2205,10 +2205,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -2219,10 +2219,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -2233,10 +2233,10 @@
       "sengkang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -2247,10 +2247,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -2261,10 +2261,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -2275,10 +2275,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -2289,10 +2289,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -2303,10 +2303,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -2317,10 +2317,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -2331,10 +2331,10 @@
       "tuas link"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -2345,10 +2345,10 @@
       "commonwealth"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -2359,10 +2359,10 @@
       "changi airport"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -2373,10 +2373,10 @@
       "lavender"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -2387,10 +2387,10 @@
       "boon keng"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -2401,10 +2401,10 @@
       "marymount"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -2415,10 +2415,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -2429,10 +2429,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -2443,10 +2443,10 @@
       "raffles place"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -2457,10 +2457,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -2471,10 +2471,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -2485,10 +2485,10 @@
       "one-north"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -2499,10 +2499,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -2513,10 +2513,10 @@
       "kembangan"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -2527,10 +2527,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -2541,10 +2541,10 @@
       "chinatown"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -2555,10 +2555,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -2569,10 +2569,10 @@
       "yew tee"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -2583,10 +2583,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -2597,10 +2597,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -2611,10 +2611,10 @@
       "clarke quay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -2625,10 +2625,10 @@
       "caldecott"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -2639,10 +2639,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -2653,10 +2653,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -2667,10 +2667,10 @@
       "caldecott"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -2681,10 +2681,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -2695,10 +2695,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -2709,10 +2709,10 @@
       "boon keng"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -2723,10 +2723,10 @@
       "eunos"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -2737,10 +2737,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -2751,10 +2751,10 @@
       "clarke quay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -2765,10 +2765,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -2779,10 +2779,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -2793,10 +2793,10 @@
       "caldecott"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -2807,10 +2807,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -2821,10 +2821,10 @@
       "dover"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -2835,10 +2835,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -2849,10 +2849,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -2863,10 +2863,10 @@
       "tiong bahru"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -2877,10 +2877,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -2891,10 +2891,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -2905,10 +2905,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -2919,10 +2919,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -2933,10 +2933,10 @@
       "ang mo kio"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -2947,10 +2947,10 @@
       "marina bay"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -2961,10 +2961,10 @@
       "botanic gardens"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -2975,10 +2975,10 @@
       "dover"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -2989,10 +2989,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -3003,10 +3003,10 @@
       "clementi"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -3017,10 +3017,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -3031,10 +3031,10 @@
       "kembangan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -3045,10 +3045,10 @@
       "orchard"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -3059,10 +3059,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -3073,10 +3073,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -3087,10 +3087,10 @@
       "tiong bahru"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -3101,10 +3101,10 @@
       "somerset"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -3115,10 +3115,10 @@
       "woodleigh"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -3129,10 +3129,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -3143,10 +3143,10 @@
       "orchard"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -3157,10 +3157,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -3171,10 +3171,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -3185,10 +3185,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -3199,10 +3199,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -3213,10 +3213,10 @@
       "paya lebar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -3227,10 +3227,10 @@
       "pioneer"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -3241,10 +3241,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -3255,10 +3255,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -3269,10 +3269,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -3283,10 +3283,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -3297,10 +3297,10 @@
       "ang mo kio"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -3311,10 +3311,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -3325,10 +3325,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -3339,10 +3339,10 @@
       "marina bay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -3353,10 +3353,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -3367,10 +3367,10 @@
       "orchard"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -3381,10 +3381,10 @@
       "buangkok"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -3395,10 +3395,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -3409,10 +3409,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -3423,10 +3423,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -3437,10 +3437,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -3451,10 +3451,10 @@
       "sengkang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -3465,10 +3465,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -3479,10 +3479,10 @@
       "commonwealth"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -3493,10 +3493,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -3507,10 +3507,10 @@
       "tai seng"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -3521,10 +3521,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -3535,10 +3535,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -3549,10 +3549,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -3563,10 +3563,10 @@
       "botanic gardens"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -3577,10 +3577,10 @@
       "woodleigh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -3591,10 +3591,10 @@
       "bras basah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -3605,10 +3605,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -3619,10 +3619,10 @@
       "boon keng"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -3633,10 +3633,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -3647,10 +3647,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -3661,10 +3661,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -3675,10 +3675,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -3689,10 +3689,10 @@
       "queenstown"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -3703,10 +3703,10 @@
       "clementi"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -3717,10 +3717,10 @@
       "braddell"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -3731,10 +3731,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -3745,10 +3745,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -3759,10 +3759,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -3773,10 +3773,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -3787,10 +3787,10 @@
       "bukit batok"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -3801,10 +3801,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -3815,10 +3815,10 @@
       "marsiling"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -3829,10 +3829,10 @@
       "orchard"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -3843,10 +3843,10 @@
       "bukit batok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -3857,10 +3857,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -3871,10 +3871,10 @@
       "yew tee"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -3885,10 +3885,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -3899,10 +3899,10 @@
       "choa chu kang"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -3913,10 +3913,10 @@
       "kembangan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -3927,10 +3927,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -3941,10 +3941,10 @@
       "choa chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -3955,10 +3955,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -3969,10 +3969,10 @@
       "punggol"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -3983,10 +3983,10 @@
       "choa chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -3997,10 +3997,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -4011,10 +4011,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -4025,10 +4025,10 @@
       "pioneer"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -4039,10 +4039,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -4053,10 +4053,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -4067,10 +4067,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -4081,10 +4081,10 @@
       "marsiling"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -4095,10 +4095,10 @@
       "gul circle"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -4109,10 +4109,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -4123,10 +4123,10 @@
       "chinatown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -4137,10 +4137,10 @@
       "khatib"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -4151,10 +4151,10 @@
       "bras basah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -4165,10 +4165,10 @@
       "paya lebar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -4179,10 +4179,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -4193,10 +4193,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -4207,10 +4207,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -4221,10 +4221,10 @@
       "lavender"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -4235,10 +4235,10 @@
       "pioneer"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -4249,10 +4249,10 @@
       "changi airport"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -4263,10 +4263,10 @@
       "tiong bahru"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -4277,10 +4277,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -4291,10 +4291,10 @@
       "eunos"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -4305,10 +4305,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -4319,10 +4319,10 @@
       "eunos"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -4333,10 +4333,10 @@
       "queenstown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -4347,10 +4347,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -4361,10 +4361,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -4375,10 +4375,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -4389,10 +4389,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -4403,10 +4403,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -4417,10 +4417,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -4431,10 +4431,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -4445,10 +4445,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -4459,10 +4459,10 @@
       "tuas link"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -4473,10 +4473,10 @@
       "simei"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -4487,10 +4487,10 @@
       "stadium"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -4501,10 +4501,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -4515,10 +4515,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -4529,10 +4529,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -4543,10 +4543,10 @@
       "aljunied"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -4557,10 +4557,10 @@
       "bedok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -4571,10 +4571,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -4585,10 +4585,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -4599,10 +4599,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -4613,10 +4613,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -4627,10 +4627,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -4641,10 +4641,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -4655,10 +4655,10 @@
       "raffles place"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -4669,10 +4669,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -4683,10 +4683,10 @@
       "hougang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -4697,10 +4697,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -4711,10 +4711,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -4725,10 +4725,10 @@
       "aljunied"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -4739,10 +4739,10 @@
       "bras basah"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -4753,10 +4753,10 @@
       "tuas link"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -4767,10 +4767,10 @@
       "commonwealth"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -4781,10 +4781,10 @@
       "boon lay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -4795,10 +4795,10 @@
       "tanah merah"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -4809,10 +4809,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -4823,10 +4823,10 @@
       "jurong east"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -4837,10 +4837,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -4851,10 +4851,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -4865,10 +4865,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -4879,10 +4879,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -4893,10 +4893,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -4907,10 +4907,10 @@
       "kallang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -4921,10 +4921,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -4935,10 +4935,10 @@
       "outram park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -4949,10 +4949,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -4963,10 +4963,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -4977,10 +4977,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -4991,10 +4991,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -5005,10 +5005,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -5019,10 +5019,10 @@
       "aljunied"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -5033,10 +5033,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -5047,10 +5047,10 @@
       "gul circle"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -5061,10 +5061,10 @@
       "tai seng"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -5075,10 +5075,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -5089,10 +5089,10 @@
       "marina bay"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -5103,10 +5103,10 @@
       "pioneer"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -5117,10 +5117,10 @@
       "tanah merah"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -5131,10 +5131,10 @@
       "simei"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -5145,10 +5145,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -5159,10 +5159,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -5173,10 +5173,10 @@
       "botanic gardens"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -5187,10 +5187,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -5201,10 +5201,10 @@
       "city hall"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -5215,10 +5215,10 @@
       "paya lebar"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -5229,10 +5229,10 @@
       "sengkang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -5243,10 +5243,10 @@
       "raffles place"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -5257,10 +5257,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -5271,10 +5271,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -5285,10 +5285,10 @@
       "dover"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -5299,10 +5299,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -5313,10 +5313,10 @@
       "tuas link"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -5327,10 +5327,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -5341,10 +5341,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -5355,10 +5355,10 @@
       "joo koon"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -5369,10 +5369,10 @@
       "clementi"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -5383,10 +5383,10 @@
       "newton"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -5397,10 +5397,10 @@
       "tuas link"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -5411,10 +5411,10 @@
       "chinatown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -5425,10 +5425,10 @@
       "clarke quay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -5439,10 +5439,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -5453,10 +5453,10 @@
       "kallang"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -5467,10 +5467,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -5481,10 +5481,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -5495,10 +5495,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -5509,10 +5509,10 @@
       "choa chu kang"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -5523,10 +5523,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -5537,10 +5537,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -5551,10 +5551,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -5565,10 +5565,10 @@
       "bukit batok"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -5579,10 +5579,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -5593,10 +5593,10 @@
       "punggol coast"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -5607,10 +5607,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -5621,10 +5621,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -5635,10 +5635,10 @@
       "boon keng"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -5649,10 +5649,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -5663,10 +5663,10 @@
       "kembangan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -5677,10 +5677,10 @@
       "queenstown"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -5691,10 +5691,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -5705,10 +5705,10 @@
       "admiralty"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -5719,10 +5719,10 @@
       "farrer road"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -5733,10 +5733,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -5747,10 +5747,10 @@
       "gul circle"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -5761,10 +5761,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -5775,10 +5775,10 @@
       "harbourfront"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -5789,10 +5789,10 @@
       "woodlands"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -5803,10 +5803,10 @@
       "redhill"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -5817,10 +5817,10 @@
       "bartley"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -5831,10 +5831,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -5845,10 +5845,10 @@
       "braddell"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -5859,10 +5859,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -5873,10 +5873,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -5887,10 +5887,10 @@
       "macpherson"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -5901,10 +5901,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -5915,10 +5915,10 @@
       "somerset"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -5929,10 +5929,10 @@
       "woodleigh"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -5943,10 +5943,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -5957,10 +5957,10 @@
       "woodleigh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -5971,10 +5971,10 @@
       "tai seng"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -5985,10 +5985,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -5999,10 +5999,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -6013,10 +6013,10 @@
       "dhoby ghaut"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -6027,10 +6027,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -6041,10 +6041,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -6055,10 +6055,10 @@
       "bras basah"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -6069,10 +6069,10 @@
       "marymount"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -6083,10 +6083,10 @@
       "kembangan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -6097,10 +6097,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -6111,10 +6111,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -6125,10 +6125,10 @@
       "kranji"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -6139,10 +6139,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -6153,10 +6153,10 @@
       "kovan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -6167,10 +6167,10 @@
       "kallang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -6181,10 +6181,10 @@
       "clarke quay"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -6195,10 +6195,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -6209,10 +6209,10 @@
       "lakeside"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -6223,10 +6223,10 @@
       "yew tee"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -6237,10 +6237,10 @@
       "lavender"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -6251,10 +6251,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -6265,10 +6265,10 @@
       "little india"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -6279,10 +6279,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -6293,10 +6293,10 @@
       "tai seng"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -6307,10 +6307,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -6321,10 +6321,10 @@
       "kent ridge"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -6335,10 +6335,10 @@
       "raffles place"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -6349,10 +6349,10 @@
       "marsiling"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -6363,10 +6363,10 @@
       "holland village"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -6377,10 +6377,10 @@
       "chinese garden"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -6391,10 +6391,10 @@
       "sembawang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -6405,10 +6405,10 @@
       "serangoon"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -6419,10 +6419,10 @@
       "jurong east"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -6433,10 +6433,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -6447,10 +6447,10 @@
       "yew tee"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -6461,10 +6461,10 @@
       "one-north"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -6475,10 +6475,10 @@
       "canberra"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -6489,10 +6489,10 @@
       "farrer park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -6503,10 +6503,10 @@
       "bukit batok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -6517,10 +6517,10 @@
       "lavender"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -6531,10 +6531,10 @@
       "yio chu kang"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -6545,10 +6545,10 @@
       "yishun"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -6559,10 +6559,10 @@
       "tuas west road"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -6573,10 +6573,10 @@
       "ang mo kio"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   },
   {
@@ -6587,10 +6587,10 @@
       "tanjong pagar"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.795,
-      "pos": 0.205,
-      "compound": 0.557
+      "neg": 0.184,
+      "neu": 0.433,
+      "pos": 0.384,
+      "compound": 0.777
     }
   },
   {
@@ -6601,10 +6601,10 @@
       "bukit gombak"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.68,
-      "pos": 0.32,
-      "compound": 0.686
+      "neg": 0.282,
+      "neu": 0.497,
+      "pos": 0.221,
+      "compound": 0.257
     }
   },
   {
@@ -6615,10 +6615,10 @@
       "braddell"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.838,
-      "pos": 0.162,
-      "compound": 0.44
+      "neg": 0.31,
+      "neu": 0.37,
+      "pos": 0.32,
+      "compound": 0.574
     }
   },
   {
@@ -6629,10 +6629,10 @@
       "promenade"
     ],
     "sentiment": {
-      "neg": 0.415,
-      "neu": 0.427,
-      "pos": 0.158,
-      "compound": -0.612
+      "neg": 0.773,
+      "neu": 0.138,
+      "pos": 0.089,
+      "compound": -0.932
     }
   },
   {
@@ -6643,10 +6643,10 @@
       "redhill"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.583,
-      "pos": 0.417,
-      "compound": 0.835
+      "neg": 0.212,
+      "neu": 0.333,
+      "pos": 0.454,
+      "compound": 0.852
     }
   },
   {
@@ -6657,10 +6657,10 @@
       "bartley"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.786,
-      "pos": 0.214,
-      "compound": 0.458
+      "neg": 0.309,
+      "neu": 0.391,
+      "pos": 0.299,
+      "compound": 0.51
     }
   },
   {
@@ -6671,10 +6671,10 @@
       "potong pasir"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.595,
-      "pos": 0.405,
-      "compound": 0.818
+      "neg": 0.125,
+      "neu": 0.441,
+      "pos": 0.434,
+      "compound": 0.796
     }
   },
   {
@@ -6685,10 +6685,10 @@
       "bukit batok"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.4,
+      "neu": 0.456,
+      "pos": 0.144,
+      "compound": -0.517
     }
   },
   {
@@ -6699,10 +6699,10 @@
       "toa payoh"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.756,
-      "pos": 0.244,
-      "compound": 0.55
+      "neg": 0.139,
+      "neu": 0.329,
+      "pos": 0.532,
+      "compound": 0.883
     }
   },
   {
@@ -6713,10 +6713,10 @@
       "clementi"
     ],
     "sentiment": {
-      "neg": 0.132,
-      "neu": 0.505,
-      "pos": 0.363,
-      "compound": 0.714
+      "neg": 0.239,
+      "neu": 0.415,
+      "pos": 0.347,
+      "compound": 0.723
     }
   },
   {
@@ -6727,10 +6727,10 @@
       "somerset"
     ],
     "sentiment": {
-      "neg": 0.164,
-      "neu": 0.398,
-      "pos": 0.438,
-      "compound": 0.67
+      "neg": 0.281,
+      "neu": 0.413,
+      "pos": 0.306,
+      "compound": 0.589
     }
   },
   {
@@ -6741,10 +6741,10 @@
       "outram park"
     ],
     "sentiment": {
-      "neg": 0.199,
-      "neu": 0.628,
-      "pos": 0.173,
-      "compound": -0.128
+      "neg": 0.251,
+      "neu": 0.6,
+      "pos": 0.15,
+      "compound": -0.044
     }
   },
   {
@@ -6755,10 +6755,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.826,
-      "pos": 0.174,
-      "compound": 0.488
+      "neg": 0.322,
+      "neu": 0.463,
+      "pos": 0.214,
+      "compound": 0.075
     }
   },
   {
@@ -6769,10 +6769,10 @@
       "macpherson"
     ],
     "sentiment": {
-      "neg": 0.14,
-      "neu": 0.728,
-      "pos": 0.132,
-      "compound": 0.214
+      "neg": 0.356,
+      "neu": 0.381,
+      "pos": 0.263,
+      "compound": 0.219
     }
   },
   {
@@ -6783,10 +6783,10 @@
       "nicoll highway"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.875,
-      "pos": 0.125,
-      "compound": 0.214
+      "neg": 0.283,
+      "neu": 0.519,
+      "pos": 0.198,
+      "compound": 0.127
     }
   },
   {
@@ -6797,10 +6797,10 @@
       "somerset"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.865,
-      "pos": 0.135,
-      "compound": 0.329
+      "neg": 0.294,
+      "neu": 0.527,
+      "pos": 0.18,
+      "compound": -0.023
     }
   },
   {
@@ -6811,10 +6811,10 @@
       "esplanade"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.52,
-      "pos": 0.48,
-      "compound": 0.807
+      "neg": 0.306,
+      "neu": 0.412,
+      "pos": 0.283,
+      "compound": 0.459
     }
   },
   {
@@ -6825,10 +6825,10 @@
       "commonwealth"
     ],
     "sentiment": {
-      "neg": 0.114,
-      "neu": 0.808,
-      "pos": 0.078,
-      "compound": -0.17
+      "neg": 0.3,
+      "neu": 0.458,
+      "pos": 0.241,
+      "compound": 0.297
     }
   },
   {
@@ -6839,10 +6839,10 @@
       "bishan"
     ],
     "sentiment": {
-      "neg": 0.18,
-      "neu": 0.537,
-      "pos": 0.283,
-      "compound": 0.273
+      "neg": 0.154,
+      "neu": 0.298,
+      "pos": 0.548,
+      "compound": 0.901
     }
   },
   {
@@ -6853,10 +6853,10 @@
       "mountbatten"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.587,
-      "pos": 0.413,
-      "compound": 0.911
+      "neg": 0.203,
+      "neu": 0.63,
+      "pos": 0.167,
+      "compound": 0.246
     }
   },
   {
@@ -6867,10 +6867,10 @@
       "bugis"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.556,
-      "pos": 0.444,
-      "compound": 0.904
+      "neg": 0.082,
+      "neu": 0.213,
+      "pos": 0.705,
+      "compound": 0.952
     }
   },
   {
@@ -6881,10 +6881,10 @@
       "holland village"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.57,
-      "pos": 0.43,
-      "compound": 0.869
+      "neg": 0.171,
+      "neu": 0.222,
+      "pos": 0.607,
+      "compound": 0.94
     }
   },
   {
@@ -6895,10 +6895,10 @@
       "lorong chuan"
     ],
     "sentiment": {
-      "neg": 0.262,
+      "neg": 0.307,
       "neu": 0.533,
-      "pos": 0.206,
-      "compound": -0.356
+      "pos": 0.16,
+      "compound": -0.191
     }
   },
   {
@@ -6909,10 +6909,10 @@
       "expo"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.815,
-      "pos": 0.185,
-      "compound": 0.527
+      "neg": 0.27,
+      "neu": 0.498,
+      "pos": 0.233,
+      "compound": 0.354
     }
   },
   {
@@ -6923,10 +6923,10 @@
       "novena"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.545,
-      "pos": 0.455,
-      "compound": 0.848
+      "neg": 0.187,
+      "neu": 0.402,
+      "pos": 0.411,
+      "compound": 0.806
     }
   },
   {
@@ -6937,10 +6937,10 @@
       "outram park"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.625,
-      "pos": 0.375,
-      "compound": 0.84
+      "neg": 0.153,
+      "neu": 0.508,
+      "pos": 0.339,
+      "compound": 0.714
     }
   },
   {
@@ -6951,10 +6951,10 @@
       "dakota"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 0.81,
-      "pos": 0.19,
-      "compound": 0.329
+      "neg": 0.28,
+      "neu": 0.492,
+      "pos": 0.228,
+      "compound": 0.299
     }
   },
   {
@@ -6965,10 +6965,10 @@
       "marina south pier"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.283,
+      "neu": 0.469,
+      "pos": 0.248,
+      "compound": 0.382
     }
   },
   {
@@ -6979,10 +6979,10 @@
       "buona vista"
     ],
     "sentiment": {
-      "neg": 0.121,
-      "neu": 0.765,
-      "pos": 0.115,
-      "compound": -0.026
+      "neg": 0.425,
+      "neu": 0.309,
+      "pos": 0.266,
+      "compound": 0.002
     }
   },
   {
@@ -6993,10 +6993,10 @@
       "tuas crescent"
     ],
     "sentiment": {
-      "neg": 0.0,
-      "neu": 1.0,
-      "pos": 0.0,
-      "compound": 0.0
+      "neg": 0.279,
+      "neu": 0.566,
+      "pos": 0.155,
+      "compound": -0.12
     }
   }
 ]
