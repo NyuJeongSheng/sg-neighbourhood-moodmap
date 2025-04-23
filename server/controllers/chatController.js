@@ -16,19 +16,28 @@ const handleChat = async (req, res) => {
     const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
     const prompt = `
-      You are a helpful assistant that recommends Singapore neighbourhoods based on sentiment data.
-
-      Here is the full neighbourhood sentiment JSON:
-      ${fullSentimentText}
-
-      Here is the full comment sentiment JSON:
-      ${fullCommentText}
-
-      Now, based on all of the above, answer the following user question:
-      "${userMessage}"
-
-      Respond clearly and concisely.
-      `;
+    You are a helpful assistant that recommends Singapore neighbourhoods based on sentiment analysis of user comments.
+    
+    The following two datasets are provided in JSON format:
+    1. Neighbourhood Sentiment Scores (normalized between -1 and 1): 
+    ${fullSentimentText}
+    
+    2. Individual Comment Sentiment Results (for context and justification):
+    ${fullCommentText}
+    
+    Please answer the user's question below using only the data provided. Do not make assumptions beyond the scope of the data.
+    
+    User question:
+    "${userMessage}"
+    
+    Instructions:
+    - Only reference neighbourhoods or comments that exist in the data.
+    - Avoid speculation or general advice.
+    - Provide responses that are factual, concise, and grounded in the data.
+    - If insufficient data exists to answer the question, say so clearly.
+    
+    Respond in a clear and concise tone.
+    `;
 
     const result = await model.generateContent(prompt);
     const response = await result.response;
