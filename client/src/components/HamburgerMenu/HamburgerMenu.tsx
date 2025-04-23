@@ -37,13 +37,28 @@ export default function HamburgerMenu({ isOpen, onSearch, onToggle, onSelectNeig
 
         {/* Search Bar */}
         <div className={styles.searchWrapper}>
-          <input
-            type="text"
-            value={search}
-            onChange={handleInputChange}
-            placeholder="Search neighbourhood..."
-            className={styles.searchInput}
-          />
+          <div className={styles.inputWrapper}>
+            <input
+              type="text"
+              value={search}
+              onChange={handleInputChange}
+              placeholder="Search neighbourhood..."
+              className={styles.searchInput}
+            />
+            {search && (
+              <button
+                onClick={() => {
+                  setSearch('');
+                  onSearch('');
+                  onSelectNeighbourhood(null, null, null);
+                }}
+                className={styles.clearInside}
+                aria-label="Clear search"
+              >
+                ✕
+              </button>
+            )}
+          </div>
         </div>
 
         {/* Neighbourhood List */}

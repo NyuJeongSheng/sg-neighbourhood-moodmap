@@ -5,10 +5,10 @@ const PORT = 5000;
 
 const neighbourhoodRoute = require('./routes/neighbourhoodRoute.js'); // <-- your custom routes
 const dataRoute = require('./routes/dataRoute.js');
+const chatRoute = require('./routes/chatRoute.js');
 
 const { processCSV } = require('./services/csvService');
 const { runSentimentAnalysis } = require('./services/sentimentService');
-const { watchRedditJson } = require('./services/fileWatcher.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -17,6 +17,7 @@ app.use(express.json());
 
 app.use('/api', neighbourhoodRoute); // <-- mount them at /api
 app.use('/api', dataRoute);
+app.use('/api', chatRoute);
 
 app.get('/', (req, res) => {
     res.send('Server is up and running.');
