@@ -3,8 +3,8 @@ const fs = require('fs');
 const path = require('path');
 const csvParser = require('csv-parser');
 
-const inputPath = path.join(__dirname, '..', 'data', 'dummy_data.csv');
-const outputPath = path.join(__dirname, '..', 'data', 'neighbourhood_comments.json');
+const inputPath = path.join(__dirname, '..', 'data', 'raw', 'dummy_data.csv');
+const outputPath = path.join(__dirname, '..', 'data', 'processed', 'neighbourhood_comments.json');
 
 async function processCSV() {
   return new Promise((resolve, reject) => {

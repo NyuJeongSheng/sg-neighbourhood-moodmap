@@ -6,7 +6,7 @@ import joblib
 
 # === Paths ===
 script_dir = os.path.dirname(__file__)  # scripts/
-data_path = os.path.join(script_dir, '..', 'data', 'sentiment_training_data.csv')
+data_path = os.path.join(script_dir, '..', 'data', 'raw', 'sentiment_training_data.csv')
 model_dir = os.path.join(script_dir, '..', 'models')
 os.makedirs(model_dir, exist_ok=True)
 

@@ -7,8 +7,8 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
 const handleChat = async (req, res) => {
   const userMessage = req.body.message;
-  const sentimentPath = path.join(__dirname, '../data/neighbourhood_sentiment.json');
-  const commentPath = path.join(__dirname, '../data/comment_sentiment_scores.json');
+  const sentimentPath = path.join(__dirname, '../data/processed/neighbourhood_sentiment.json');
+  const commentPath = path.join(__dirname, '../data/processed/comment_sentiment_scores.json');
   const fullSentimentText = fs.readFileSync(sentimentPath, 'utf-8');
   const fullCommentText = fs.readFileSync(commentPath, 'utf-8');
 

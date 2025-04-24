@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './HamburgerMenu.module.css';
-import neighbourhoods from '../../../../server/data/neighbourhoods.json';
+import neighbourhoods from '../../../../server/data/raw/neighbourhoods.json';
 
 interface HamburgerMenuProps {
   isOpen: boolean;

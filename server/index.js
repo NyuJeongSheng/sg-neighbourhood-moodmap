@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 });
 
 const startServer = async () => {
-    const sentimentPath = path.join(__dirname, 'data', 'neighbourhood_sentiment.json');
+    const sentimentPath = path.join(__dirname, 'data', 'processed', 'neighbourhood_sentiment.json');
   
     try {
 

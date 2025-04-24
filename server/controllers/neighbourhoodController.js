@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const COMMENTS_PATH = path.join(__dirname, '..', 'data', 'comment_sentiment_scores.json');
+const COMMENTS_PATH = path.join(__dirname, '..', 'data', 'processed', 'comment_sentiment_scores.json');
 
 const getCommentsByNeighbourhood = (req, res) => {
     const { neighbourhood } = req.params;
