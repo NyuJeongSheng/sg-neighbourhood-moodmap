@@ -7,6 +7,7 @@
 
 # === Dependency folders ===
 .venv
+venv
 node_modules
 dist
 dist-ssr
