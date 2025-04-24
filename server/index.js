@@ -24,51 +24,57 @@ app.use('/api', dataRoute);
 app.use('/api', chatRoute);
 
 app.get('/', (req, res) => {
-    res.send('Server is up and running.');
+  res.send('Server is up and running.');
 });
 
 const startServer = async () => {
-    const sentimentPath = path.join(__dirname, 'data', 'processed', 'neighbourhood_sentiment.json');
-  
-    try {
+  const processedDir = path.join(__dirname, 'data', 'processed');
+  const sentimentPath = path.join(processedDir, 'neighbourhood_sentiment.json');
 
-      // 1. Check if custom model needs training
-      if (!fs.existsSync(customModelPath) || !fs.existsSync(vectorizerPath)) {
-        console.log('[BOOT] Custom model not found. Training...');
-  
-        await new Promise((resolve, reject) => {
-          exec('python ./scripts/custom_trainer.py', (error, stdout, stderr) => {
-            if (error) {
-              console.error('Custom model training failed:', stderr);
-              return reject(error);
-            } else {
-              console.log('Custom model training complete.');
-              console.log(stdout);
-              return resolve();
-            }
-          });
-        });
-      } else {
-        console.log('Custom model already exists. Skipping training.');
-      }
+  try {
 
-      // 2. Run CSV + Sentiment Pipeline
-      if (!fs.existsSync(sentimentPath)) {
-        console.log('[BOOT] neighbourhood_sentiment.json not found. Running CSV pipeline...');
-        await processCSV();
-        await runSentimentAnalysis('custom');
-        console.log('[BOOT] CSV + Sentiment pipeline complete.');
-      } else {
-        console.log('[BOOT] neighbourhood_sentiment.json already exists. Skipping CSV pipeline.');
-      }
-  
-      // 3. Start server only after all above is successful
-      app.listen(PORT, () => {
-        console.log(`\nServer running on http://localhost:${PORT}`);
-      });
-    } catch (err) {
-      console.error('[BOOT] Error during startup:', err);
+    if (!fs.existsSync(processedDir)) {
+      fs.mkdirSync(processedDir, { recursive: true });
+      console.log('[BOOT] Created missing directory: data/processed');
     }
-  };
-  
-  startServer();
+
+    // 1. Check if custom model needs training
+    if (!fs.existsSync(customModelPath) || !fs.existsSync(vectorizerPath)) {
+      console.log('[BOOT] Custom model not found. Training...');
+
+      await new Promise((resolve, reject) => {
+        exec('python ./scripts/custom_trainer.py', (error, stdout, stderr) => {
+          if (error) {
+            console.error('Custom model training failed:', stderr);
+            return reject(error);
+          } else {
+            console.log('Custom model training complete.');
+            console.log(stdout);
+            return resolve();
+          }
+        });
+      });
+    } else {
+      console.log('Custom model already exists. Skipping training.');
+    }
+
+    // 2. Run CSV + Sentiment Pipeline
+    if (!fs.existsSync(sentimentPath)) {
+      console.log('[BOOT] neighbourhood_sentiment.json not found. Running CSV pipeline...');
+      await processCSV();
+      await runSentimentAnalysis('custom');
+      console.log('[BOOT] CSV + Sentiment pipeline complete.');
+    } else {
+      console.log('[BOOT] neighbourhood_sentiment.json already exists. Skipping CSV pipeline.');
+    }
+
+    // 3. Start server only after all above is successful
+    app.listen(PORT, () => {
+      console.log(`\nServer running on http://localhost:${PORT}`);
+    });
+  } catch (err) {
+    console.error('[BOOT] Error during startup:', err);
+  }
+};
+
+startServer();
