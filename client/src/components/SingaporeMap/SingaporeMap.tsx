@@ -9,6 +9,10 @@ import FilterPanel from '../FilterPanel/FilterPanel';
 import CommentsPanel from '../CommentsPanel/CommentsPanel';
 import SettingsPanel from '../SettingsPanel/SettingsPanel';
 
+interface SingaporeMapProps {
+  setLoading: (loading: boolean) => void;
+}
+
 const singaporeBounds = L.latLngBounds([
   [1.200, 103.600], // further southwest
   [1.500, 104.020]  // further northeast
@@ -34,7 +38,7 @@ const createColoredIcon = (color: string) =>
     shadowSize: [41, 41]
   });
 
-export default function SingaporeMap() {
+export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
   const [filters, setFilters] = useState<string[]>(['green', 'yellow', 'orange', 'red', 'grey']);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -43,7 +47,6 @@ export default function SingaporeMap() {
   const mapRef = useRef<LeafletMap | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
   // const [dataSource, setDataSource] = useState<'csv' | 'online'>('csv');
-  const [loading, setLoading] = useState(false);
 
   const handleResetView = () => {
     const map = mapRef.current;
@@ -56,23 +59,6 @@ export default function SingaporeMap() {
 
   return (
     <div>
-      {loading && (
-        <div style={{
-          position: 'absolute',
-          top: 0, left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundColor: 'rgba(255,255,255,0.8)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: '20px',
-          fontWeight: 'bold',
-          zIndex: 9999
-        }}>
-          Updating map data...
-        </div>
-      )}
       <HamburgerMenu
         isOpen={menuOpen}
         onSearch={(query) => setSearchQuery(query.toLowerCase())}
@@ -109,7 +95,6 @@ export default function SingaporeMap() {
       />
 
       <SettingsPanel
-        // onDataSourceChange={() => setDataSource()}
         setLoading={setLoading}
       />
 
