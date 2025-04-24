@@ -19,7 +19,7 @@ df = pd.read_csv(data_path)
 if 'comment' not in df.columns or 'label' not in df.columns:
     raise ValueError("CSV must contain 'comment' and 'label' columns.")
 
-print(f"📦 Loaded {len(df)} samples from: {data_path}")
+print(f"Loaded {len(df)} samples from: {data_path}")
 
 X = df['comment']
 y = df['label']
@@ -36,5 +36,5 @@ model.fit(X_vec, y)
 joblib.dump(model, model_path)
 joblib.dump(vectorizer, vectorizer_path)
 
-print(f"✅ Model saved to: {model_path}")
-print(f"✅ Vectorizer saved to: {vectorizer_path}")
+print(f"Model saved to: {model_path}")
+print(f"Vectorizer saved to: {vectorizer_path}")
