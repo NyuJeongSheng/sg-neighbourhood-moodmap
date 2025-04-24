@@ -12,10 +12,10 @@ args = parser.parse_args()
 # === File paths ===
 script_dir = os.path.dirname(__file__)
 data_dir = os.path.join(script_dir, '..', 'data')
-input_path = os.path.join(data_dir, 'neighbourhood_comments.json')
-neigh_path = os.path.join(data_dir, 'neighbourhoods.json')
-comment_out = os.path.join(data_dir, 'comment_sentiment_scores.json')
-neigh_out = os.path.join(data_dir, 'neighbourhood_sentiment.json')
+input_path = os.path.join(data_dir, 'processed', 'neighbourhood_comments.json')
+neigh_path = os.path.join(data_dir, 'raw', 'neighbourhoods.json')
+comment_out = os.path.join(data_dir, 'processed', 'comment_sentiment_scores.json')
+neigh_out = os.path.join(data_dir, 'processed', 'neighbourhood_sentiment.json')
 
 # === Load input ===
 with open(input_path, 'r', encoding='utf-8') as f:

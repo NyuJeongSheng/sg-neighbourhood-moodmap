@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import sentimentScoresRaw from '../../../../server/data/neighbourhood_sentiment.json';
+import sentimentScoresRaw from '../../../../server/data/processed/neighbourhood_sentiment.json';
 import styles from './CommentsPanel.module.css';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 

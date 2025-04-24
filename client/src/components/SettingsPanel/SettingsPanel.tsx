@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Settings } from 'lucide-react';
 import styles from './SettingsPanel.module.css';
-import sentimentCommentsData from '../../../../server/data/comment_sentiment_scores.json'; // adjust path as needed
-import sentimentNeighbourhoodData from '../../../../server/data/neighbourhood_sentiment.json'; // adjust path as needed
+import sentimentCommentsData from '../../../../server/data/processed/comment_sentiment_scores.json'; // adjust path as needed
+import sentimentNeighbourhoodData from '../../../../server/data/processed/neighbourhood_sentiment.json'; // adjust path as needed
 
 interface SettingsPanelProps {
   setLoading: (loading: boolean) => void;
