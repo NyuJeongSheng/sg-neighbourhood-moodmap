@@ -37,7 +37,7 @@ const startServer = async () => {
         console.log('[BOOT] Custom model not found. Training...');
   
         await new Promise((resolve, reject) => {
-          exec('python ./server/scripts/custom_trainer.py', (error, stdout, stderr) => {
+          exec('python ./scripts/custom_trainer.py', (error, stdout, stderr) => {
             if (error) {
               console.error('Custom model training failed:', stderr);
               return reject(error);
