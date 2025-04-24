@@ -3,7 +3,7 @@
 *.log
 .env
 .vscode/
-__pycache__/
+**__pycache__/
 
 # === Dependency folders ===
 .venv
