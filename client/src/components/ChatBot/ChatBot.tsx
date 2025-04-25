@@ -63,13 +63,15 @@ export default function ChatBot() {
       });
 
       const data = await res.json();
-      const botMessage = res.status === 500
-        ? 'Sorry! We\'re receiving too many requests right now. Please wait a few seconds and try again.'
-        : data.reply;
+      const reply = res.status === 200
+        ? data.reply
+        : res.status === 429
+          ? 'Sorry! We\'re receiving too many requests right now. Please wait a few seconds and try again.'
+          : 'Server error. We could not process your request right now.';
 
-      setMessages(prev => [...prev, { from: 'bot', text: botMessage }]);
+      setMessages(prev => [...prev, { from: 'bot', text: reply }]);
     } catch {
-      setMessages(prev => [...prev, { from: 'bot', text: 'Something went wrong.' }]);
+      setMessages(prev => [...prev, { from: 'bot', text: 'Something went wrong while processing your request. Please check your connection or try again.' }]);
     }
 
     setLoading(false);
@@ -100,12 +102,7 @@ export default function ChatBot() {
     if (msg.text === '__EXAMPLE_QUESTIONS__') {
       return (
         <div key={index} style={{ marginBlock: '6px' }}>
-          <div style={{
-            background: '#fff',
-            border: '1px solid #ddd',
-            borderRadius: '12px',
-            overflow: 'hidden'
-          }}>
+          <div className={styles.examplesContainer}>
             {exampleQuestions.map((q, i) => (
               <div
                 key={i}
@@ -177,6 +174,7 @@ export default function ChatBot() {
               {exampleQuestions.map((q, i) => (
                 <button
                   key={i}
+                  className={styles.suggestionButton}
                   onClick={(e) => {
                     if (hasDragged.current) {
                       e.preventDefault();
@@ -184,21 +182,6 @@ export default function ChatBot() {
                       return;
                     }
                     sendMessage(q);
-                  }}
-                  style={{
-                    padding: '5px',
-                    border: '1px solid black',
-                    borderRadius: '20px',
-                    backgroundColor: 'white',
-                    color: 'black',
-                    cursor: 'pointer',
-                    fontSize: '14px',
-                    fontWeight: 500,
-                    whiteSpace: 'nowrap',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    textAlign: 'center'
                   }}
                 >
                   {q}

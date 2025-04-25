@@ -1,64 +1,75 @@
+// index.js
+const path = require('path');
+const fs = require('fs');
 const express = require('express');
 const cors = require('cors');
+const { exec } = require('child_process');
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+
+// Routes
+const neighbourhoodRoute = require('./routes/neighbourhoodRoute');
+const dataRoute = require('./routes/dataRoute');
+const chatRoute = require('./routes/chatRoute');
+
+// Services
+const { processCSV } = require('./services/csvService');
+const { runSentimentAnalysis } = require('./services/sentimentService');
+
 const app = express();
 const PORT = 5000;
 
-const neighbourhoodRoute = require('./routes/neighbourhoodRoute.js'); // <-- your custom routes
-const dataRoute = require('./routes/dataRoute.js');
-const chatRoute = require('./routes/chatRoute.js');
-
-const { processCSV } = require('./services/csvService');
-const { runSentimentAnalysis } = require('./services/sentimentService');
-const fs = require('fs');
-const path = require('path');
-
-const { exec } = require('child_process');
-const customModelPath = path.join(__dirname, 'models', 'custom_model.pkl');
-const vectorizerPath = path.join(__dirname, 'models', 'custom_vectorizer.pkl');
-
+// Middleware
 app.use(cors());
 app.use(express.json());
 
-app.use('/api', neighbourhoodRoute); // <-- mount them at /api
+// API Routes
+app.use('/api', neighbourhoodRoute);
 app.use('/api', dataRoute);
 app.use('/api', chatRoute);
 
+// Root test route
 app.get('/', (req, res) => {
   res.send('Server is up and running.');
 });
 
+const processedDir = path.join(__dirname, 'data', 'processed');
+const sentimentPath = path.join(processedDir, 'neighbourhood_sentiment.json');
+const customModelPath = path.join(__dirname, 'models', 'custom_model.pkl');
+const vectorizerPath = path.join(__dirname, 'models', 'custom_vectorizer.pkl');
+
+const trainCustomModelIfMissing = () => {
+  return new Promise((resolve, reject) => {
+    console.log('[BOOT] Custom model not found. Training...');
+    exec('python ./scripts/custom_trainer.py', (error, stdout, stderr) => {
+      if (error) {
+        console.error('Custom model training failed:', stderr);
+        reject(error);
+      } else {
+        console.log('Custom model training complete.');
+        console.log(stdout);
+        resolve();
+      }
+    });
+  });
+};
+
 const startServer = async () => {
-  const processedDir = path.join(__dirname, 'data', 'processed');
-  const sentimentPath = path.join(processedDir, 'neighbourhood_sentiment.json');
-
   try {
-
+    // Ensure processed directory exists
     if (!fs.existsSync(processedDir)) {
       fs.mkdirSync(processedDir, { recursive: true });
       console.log('[BOOT] Created missing directory: data/processed');
     }
 
-    // 1. Check if custom model needs training
-    if (!fs.existsSync(customModelPath) || !fs.existsSync(vectorizerPath)) {
-      console.log('[BOOT] Custom model not found. Training...');
-
-      await new Promise((resolve, reject) => {
-        exec('python ./scripts/custom_trainer.py', (error, stdout, stderr) => {
-          if (error) {
-            console.error('Custom model training failed:', stderr);
-            return reject(error);
-          } else {
-            console.log('Custom model training complete.');
-            console.log(stdout);
-            return resolve();
-          }
-        });
-      });
+    // Step 1: Train custom model if not available
+    const modelExists = fs.existsSync(customModelPath) && fs.existsSync(vectorizerPath);
+    if (!modelExists) {
+      await trainCustomModelIfMissing();
     } else {
-      console.log('Custom model already exists. Skipping training.');
+      console.log('[BOOT] Custom model already exists. Skipping training.');
     }
 
-    // 2. Run CSV + Sentiment Pipeline
+    // Step 2: Run CSV + Sentiment pipeline if necessary
     if (!fs.existsSync(sentimentPath)) {
       console.log('[BOOT] neighbourhood_sentiment.json not found. Running CSV pipeline...');
       await processCSV();
@@ -68,10 +79,11 @@ const startServer = async () => {
       console.log('[BOOT] neighbourhood_sentiment.json already exists. Skipping CSV pipeline.');
     }
 
-    // 3. Start server only after all above is successful
+    // Step 3: Start server
     app.listen(PORT, () => {
       console.log(`\nServer running on http://localhost:${PORT}`);
     });
+
   } catch (err) {
     console.error('[BOOT] Error during startup:', err);
   }

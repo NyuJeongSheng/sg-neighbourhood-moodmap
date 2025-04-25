@@ -1,68 +1,72 @@
 import json
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+def load_json(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def save_json(path, data):
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def build_neighbourhood_map(neighbourhoods_data):
+    return {n['name'].lower(): n['name'] for n in neighbourhoods_data}
+
+def match_neighbourhood(entry, neighbourhood_names):
+    if 'neighbourhood' in entry:
+        n = entry['neighbourhood'].lower()
+        if n in neighbourhood_names:
+            return [n]
+    comment = entry.get('comment', '').lower()
+    return [n for n in neighbourhood_names if n in comment]
+
+def analyze_comment(comment_text, analyzer):
+    sentiment = analyzer.polarity_scores(comment_text)
+    return {
+        "neg": round(sentiment['neg'], 3),
+        "neu": round(sentiment['neu'], 3),
+        "pos": round(sentiment['pos'], 3),
+        "compound": round(sentiment['compound'], 3)
+    }
+
+def compute_neighbourhood_averages(sentiments, neighbourhood_map):
+    return {
+        neighbourhood_map[n]: round(sum(scores) / len(scores), 3)
+        for n, scores in sentiments.items() if scores
+    }
+
 def run_vader_analysis(input_path, neighbourhoods_path, comment_output_path, neighbourhood_output_path):
-    # === Load Neighbourhood Data ===
-    with open(neighbourhoods_path, 'r', encoding='utf-8') as f:
-        neighbourhoods_data = json.load(f)
+    neighbourhood_data = load_json(neighbourhoods_path)
+    comments = load_json(input_path)
 
-    neighbourhood_map = {n['name'].lower(): n['name'] for n in neighbourhoods_data}
-    neighbourhood_names_lower = list(neighbourhood_map.keys())
-
-    # === Load Reddit Comments ===
-    with open(input_path, 'r', encoding='utf-8') as f:
-        comments = json.load(f)
+    neighbourhood_map = build_neighbourhood_map(neighbourhood_data)
+    neighbourhood_names = list(neighbourhood_map.keys())
 
     analyzer = SentimentIntensityAnalyzer()
-    neigh_sentiments = {n: [] for n in neighbourhood_names_lower}
+    neighbourhood_sentiments = {n: [] for n in neighbourhood_names}
     comment_scores = []
 
     for entry in comments:
         comment_text = entry.get('comment', '')
-        comment_lower = comment_text.lower()
-        sentiment = analyzer.polarity_scores(comment_text)
-        compound_score = sentiment['compound']
-
-        post_id = entry.get('post_id')
-        timestamp = entry.get('timestamp')
-
-        if 'neighbourhood' in entry:
-            n = entry['neighbourhood'].lower()
-            matched_neighs = [n] if n in neighbourhood_names_lower else []
-        else:
-            matched_neighs = [n for n in neighbourhood_names_lower if n in comment_lower]
+        sentiment = analyze_comment(comment_text, analyzer)
+        matched_neighs = match_neighbourhood(entry, neighbourhood_names)
 
         if matched_neighs:
             for n in matched_neighs:
-                neigh_sentiments[n].append(compound_score)
+                neighbourhood_sentiments[n].append(sentiment["compound"])
 
             comment_scores.append({
                 "comment": comment_text,
-                "post_id": post_id,
-                "timestamp": timestamp,
+                "post_id": entry.get('post_id'),
+                "timestamp": entry.get('timestamp'),
                 "matched_neighbourhoods": matched_neighs,
-                "sentiment": {
-                    "neg": round(sentiment['neg'], 3),
-                    "neu": round(sentiment['neu'], 3),
-                    "pos": round(sentiment['pos'], 3),
-                    "compound": round(compound_score, 3)
-                }
+                "sentiment": sentiment
             })
 
-    # === Compute Averages ===
-    neigh_result = {}
-    for neigh, scores in neigh_sentiments.items():
-        if scores:
-            avg = sum(scores) / len(scores)
-            original_name = neighbourhood_map[neigh]
-            neigh_result[original_name] = round(avg, 3)
+    neighbourhood_result = compute_neighbourhood_averages(neighbourhood_sentiments, neighbourhood_map)
 
-    # === Save Outputs ===
-    with open(neighbourhood_output_path, 'w', encoding='utf-8') as f:
-        json.dump({"model": "vader", "sentiment": neigh_result}, f, indent=2, ensure_ascii=False)
-
-    with open(comment_output_path, 'w', encoding='utf-8') as f:
-        json.dump(comment_scores, f, indent=2, ensure_ascii=False)
+    save_json(neighbourhood_output_path, {"model": "vader", "sentiment": neighbourhood_result})
+    save_json(comment_output_path, comment_scores)
 
     print(f"[VADER] Saved average sentiment to: {neighbourhood_output_path}")
     print(f"[VADER] Saved per-comment sentiment to: {comment_output_path}")

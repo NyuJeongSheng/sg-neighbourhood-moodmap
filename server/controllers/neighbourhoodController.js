@@ -1,15 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-
-const COMMENTS_PATH = path.join(__dirname, '..', 'data', 'processed', 'comment_sentiment_scores.json');
+const { getCommentSentimentsData } = require('../services/dataService');
 
 const getCommentsByNeighbourhood = (req, res) => {
     const { neighbourhood } = req.params;
 
     try {
-        const rawData = fs.readFileSync(COMMENTS_PATH, 'utf-8');
-        const comments = JSON.parse(rawData);
-
+        const comments = getCommentSentimentsData();
         const filtered = comments.filter(entry =>
             entry.matched_neighbourhoods.includes(neighbourhood.toLowerCase())
         );
