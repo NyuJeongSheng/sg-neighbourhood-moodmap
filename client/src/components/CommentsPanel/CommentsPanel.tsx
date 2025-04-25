@@ -48,7 +48,7 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
           .sort((a, b) => new Date(b.timestamp!).getTime() - new Date(a.timestamp!).getTime());
 
         setComments(sorted);
-        generateTrend(list);
+        generateTrend(sorted);
       })
       .catch((err) => {
         console.error('Error fetching comments:', err);
@@ -70,7 +70,7 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
   };
 
   const generateTrend = (list: CommentEntry[]) => {
-    const withDate = list
+    const trendPoints = list
       .filter(entry => entry.timestamp)
       .map(entry => {
         const ts = new Date(entry.timestamp!);
@@ -82,10 +82,10 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
       })
       .sort((a, b) => a.fullTime - b.fullTime)
       .map(({ date, sentiment }) => ({ date, sentiment }));
-  
-    setTrendData(withDate);
+
+    setTrendData(trendPoints);
   };
-  
+
   if (!neighbourhoodName || averageScore === null) return null;
 
   return (

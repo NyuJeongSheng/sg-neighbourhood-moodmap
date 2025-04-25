@@ -16,12 +16,15 @@ export default function ChatBot() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
+
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);
   const startX = useRef(0);
   const scrollLeft = useRef(0);
   const hasDragged = useRef(false);
+
+  const hasUserSentMessage = messages.some(msg => msg.from === 'user');
 
   useEffect(() => {
     if (isOpen && messages.length === 0) {
@@ -48,8 +51,7 @@ export default function ChatBot() {
     const messageToSend = overrideMessage ?? input.trim();
     if (!messageToSend) return;
 
-    const newUserMessage: Message = { from: 'user', text: messageToSend };
-    setMessages(prev => [...prev, newUserMessage]);
+    setMessages(prev => [...prev, { from: 'user', text: messageToSend }]);
     setInput('');
     setLoading(true);
 
@@ -61,15 +63,13 @@ export default function ChatBot() {
       });
 
       const data = await res.json();
-      if (res.status === 500) {
-        setMessages(prev => [...prev, { from: 'bot', text: `Sorry! We're receiving too many requests right now. Please wait a few seconds and try again.` }]);
-      } else {
-        const newBotMessage: Message = { from: 'bot', text: data.reply };
-        setMessages(prev => [...prev, newBotMessage]);
-      }
+      const botMessage = res.status === 500
+        ? 'Sorry! We\'re receiving too many requests right now. Please wait a few seconds and try again.'
+        : data.reply;
+
+      setMessages(prev => [...prev, { from: 'bot', text: botMessage }]);
     } catch {
-      const errorMsg: Message = { from: 'bot', text: 'Something went wrong.' };
-      setMessages(prev => [...prev, errorMsg]);
+      setMessages(prev => [...prev, { from: 'bot', text: 'Something went wrong.' }]);
     }
 
     setLoading(false);
@@ -100,7 +100,12 @@ export default function ChatBot() {
     if (msg.text === '__EXAMPLE_QUESTIONS__') {
       return (
         <div key={index} style={{ marginBlock: '6px' }}>
-          <div style={{ background: '#fff', border: '1px solid #ddd', borderRadius: '12px', overflow: 'hidden' }}>
+          <div style={{
+            background: '#fff',
+            border: '1px solid #ddd',
+            borderRadius: '12px',
+            overflow: 'hidden'
+          }}>
             {exampleQuestions.map((q, i) => (
               <div
                 key={i}
@@ -132,7 +137,7 @@ export default function ChatBot() {
             maxWidth: '80%',
             wordWrap: 'break-word',
             whiteSpace: 'pre-wrap',
-            textAlign: 'left',
+            textAlign: 'left'
           }}
         >
           {msg.text}
@@ -140,8 +145,6 @@ export default function ChatBot() {
       </div>
     );
   };
-
-  const hasUserSentMessage = messages.some(msg => msg.from === 'user');
 
   return (
     <>
@@ -153,9 +156,7 @@ export default function ChatBot() {
         <div className={styles.chatWindow}>
           <div className={styles.chatHeader}>
             <span className={styles.chatHeaderText}>AI Chatbot</span>
-            <button onClick={toggleChat} className={styles.closeButton} aria-label="Close chatbot">
-              ✕
-            </button>
+            <button onClick={toggleChat} className={styles.closeButton} aria-label="Close chatbot">✕</button>
           </div>
 
           <div className={styles.messageContainer}>

@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Settings } from 'lucide-react';
 import styles from './SettingsPanel.module.css';
-import sentimentCommentsData from '../../../../server/data/processed/comment_sentiment_scores.json'; // adjust path as needed
-import sentimentNeighbourhoodData from '../../../../server/data/processed/neighbourhood_sentiment.json'; // adjust path as needed
+
+import sentimentCommentsData from '../../../../server/data/processed/comment_sentiment_scores.json';
+import sentimentNeighbourhoodData from '../../../../server/data/processed/neighbourhood_sentiment.json';
 
 interface SettingsPanelProps {
   setLoading: (loading: boolean) => void;
@@ -16,53 +17,40 @@ export default function SettingsPanel({ setLoading }: SettingsPanelProps) {
   useEffect(() => {
     try {
       const model = sentimentNeighbourhoodData?.model;
-      if (model === 'vader' || model === 'custom') {
-        setSentimentModel(model);
-      } else {
-        setSentimentModel('vader');
-      }
-
       const postId = sentimentCommentsData?.[0]?.post_id;
-      if (postId !== null && postId !== undefined) {
-        setDataSource('online');
-      } else {
-        setDataSource('csv');
-      }
+
+      setSentimentModel(model === 'custom' ? 'custom' : 'vader');
+      setDataSource(postId ? 'online' : 'csv');
     } catch (err) {
-      console.error('Failed to load static sentiment data:', err);
+      console.error('⚠️ Failed to load static sentiment data:', err);
       setDataSource('csv');
     }
   }, []);
 
   const handleChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = e.target;
-    let newDataSource = dataSource;
-    let newModel = sentimentModel;
-  
-    if (name === 'dataSource') {
-      newDataSource = value as 'csv' | 'online';
-      setDataSource(newDataSource);
-    } else if (name === 'sentimentModel') {
-      newModel = value as 'vader' | 'custom';
-      setSentimentModel(newModel);
-    }
-  
+
+    const newModel = name === 'sentimentModel' ? (value as 'vader' | 'custom') : sentimentModel;
+    const newDataSource = name === 'dataSource' ? (value as 'csv' | 'online') : dataSource;
+
+    setSentimentModel(newModel);
+    setDataSource(newDataSource);
     setLoading(true);
-  
+
     try {
       const endpoint =
         newDataSource === 'online'
           ? 'http://localhost:5000/api/scrape'
           : 'http://localhost:5000/api/process-csv';
-  
+
       const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ model: newModel }),
       });
-  
-      if (!res.ok) throw new Error('Failed to trigger backend update');
-  
+
+      if (!res.ok) throw new Error('❌ Failed to trigger backend update');
+
       console.log(`✅ Triggered: ${newDataSource} with model ${newModel}`);
     } catch (err) {
       console.error('❌ Backend update failed:', err);
