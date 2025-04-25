@@ -9,7 +9,12 @@ interface HamburgerMenuProps {
   onSelectNeighbourhood: (lat: number | null, lng: number | null, name: string | null) => void;
 }
 
-export default function HamburgerMenu({ isOpen, onSearch, onToggle, onSelectNeighbourhood }: HamburgerMenuProps) {
+export default function HamburgerMenu({
+  isOpen,
+  onSearch,
+  onToggle,
+  onSelectNeighbourhood
+}: HamburgerMenuProps) {
   const [search, setSearch] = useState('');
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -28,11 +33,8 @@ export default function HamburgerMenu({ isOpen, onSearch, onToggle, onSelectNeig
 
   return (
     <>
-      {/* Sidebar */}
-      <div
-        className={`${styles.sidebar} ${isOpen ? styles.sidebarOpen : styles.sidebarClosed}`}
-      >
-        {/* Close Button */}
+      {/* Sidebar Panel */}
+      <div className={`${styles.sidebar} ${isOpen ? styles.sidebarOpen : styles.sidebarClosed}`}>
         <div className={styles.closeButton} onClick={onToggle}>✕</div>
 
         {/* Search Bar */}
@@ -75,7 +77,7 @@ export default function HamburgerMenu({ isOpen, onSearch, onToggle, onSelectNeig
         </div>
       </div>
 
-      {/* Always-visible Toggle Button */}
+      {/* Toggle Button (Always Visible) */}
       <div className={styles.toggleButton} onClick={onToggle}>☰</div>
     </>
   );

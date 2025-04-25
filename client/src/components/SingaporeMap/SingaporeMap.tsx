@@ -2,8 +2,10 @@ import { useState, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L, { Map as LeafletMap } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+
 import neighbourhoods from '../../../../server/data/raw/neighbourhoods.json';
 import sentimentScoresRaw from '../../../../server/data/processed/neighbourhood_sentiment.json';
+
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 import FilterPanel from '../FilterPanel/FilterPanel';
 import CommentsPanel from '../CommentsPanel/CommentsPanel';
@@ -13,16 +15,16 @@ interface SingaporeMapProps {
   setLoading: (loading: boolean) => void;
 }
 
-const singaporeBounds = L.latLngBounds([
-  [1.200, 103.600], // further southwest
-  [1.500, 104.020]  // further northeast
-]);
+const singaporeBounds = L.latLngBounds(
+  [1.200, 103.600],
+  [1.500, 104.020]
+);
 
 const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
 
 const getMarkerColor = (score: number | undefined): string => {
   if (score === undefined) return 'grey';
-  if (score >= 0.50) return 'green';
+  if (score >= 0.5) return 'green';
   if (score >= 0.25) return 'yellow';
   if (score >= -0.25) return 'orange';
   return 'red';
@@ -39,20 +41,17 @@ const createColoredIcon = (color: string) =>
   });
 
 export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
-  const [filters, setFilters] = useState<string[]>(['green', 'yellow', 'orange', 'red', 'grey']);
-  const [menuOpen, setMenuOpen] = useState<boolean>(false);
-  const [searchQuery, setSearchQuery] = useState<string>('');
-  const [selectedNeighbourhood, setSelectedNeighbourhood] = useState<{ name: string, lat: number, lng: number } | null>(null);
+  const [filters, setFilters] = useState(['green', 'yellow', 'orange', 'red', 'grey']);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedNeighbourhood, setSelectedNeighbourhood] = useState<{ name: string; lat: number; lng: number } | null>(null);
   const [selectedName, setSelectedName] = useState<string | null>(null);
+
   const mapRef = useRef<LeafletMap | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
-  // const [dataSource, setDataSource] = useState<'csv' | 'online'>('csv');
 
   const handleResetView = () => {
-    const map = mapRef.current;
-    if (map) {
-      map.setView([1.3621, 103.7958], 13);
-    }
+    mapRef.current?.setView([1.3621, 103.7958], 13);
     setSelectedNeighbourhood(null);
     setSelectedName(null);
   };
@@ -72,14 +71,12 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
             setSelectedNeighbourhood({ name: match.name, lat, lng });
             setSelectedName(match.name);
 
-            // First pan the marker exactly to the center
             map.panTo([lat, lng], { animate: true });
 
-            // Delay the popup slightly to avoid visual shift
             setTimeout(() => {
               const marker = markerRefs.current[match.name];
               if (marker) marker.openPopup();
-            }, 250); // popup after pan animation
+            }, 250);
           } else {
             setSelectedNeighbourhood(null);
             setSelectedName(null);
@@ -94,21 +91,19 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
         onResetView={handleResetView}
       />
 
-      <SettingsPanel
-        setLoading={setLoading}
-      />
+      <SettingsPanel setLoading={setLoading} />
 
       <MapContainer
         center={[1.3621, 103.7958]}
         zoom={13}
         minZoom={13}
-        style={{ height: '100vh', width: '100vw' }}
         zoomControl={false}
         touchZoom={false}
         boxZoom={false}
         keyboard={false}
         maxBounds={singaporeBounds}
         maxBoundsViscosity={1.0}
+        style={{ height: '100vh', width: '100vw' }}
         whenReady={() => {
           const map = mapRef.current;
           if (map) {
@@ -124,18 +119,17 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
         <TileLayer url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png" />
 
         {neighbourhoods
-          .filter((n) => n.name.toLowerCase().includes(searchQuery))
+          .filter(n => n.name.toLowerCase().includes(searchQuery))
           .map((n, i) => {
             const score = sentimentScores[n.name];
             const color = getMarkerColor(score);
             if (!filters.includes(color)) return null;
 
-            const icon = createColoredIcon(color);
             return (
               <Marker
                 key={i}
                 position={[n.lat, n.lng]}
-                icon={icon}
+                icon={createColoredIcon(color)}
                 eventHandlers={{
                   click: () => {
                     const map = mapRef.current;
@@ -147,13 +141,12 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
                   }
                 }}
                 ref={(ref) => {
-                  if (ref) {
-                    markerRefs.current[n.name] = ref;
-                  }
+                  if (ref) markerRefs.current[n.name] = ref;
                 }}
               >
                 <Popup autoPan={false}>
-                  <strong>{n.name}</strong><br />
+                  <strong>{n.name}</strong>
+                  <br />
                   {score !== undefined ? `Sentiment: ${score}` : 'No sentiment data'}
                 </Popup>
               </Marker>

@@ -3,20 +3,24 @@ const fs = require('fs');
 const path = require('path');
 const csvParser = require('csv-parser');
 
+// === File Paths ===
 const inputPath = path.join(__dirname, '..', 'data', 'raw', 'dummy_data.csv');
 const outputPath = path.join(__dirname, '..', 'data', 'processed', 'neighbourhood_comments.json');
 
+// === Process CSV into structured JSON ===
 async function processCSV() {
   return new Promise((resolve, reject) => {
     const results = [];
+
     fs.createReadStream(inputPath)
       .pipe(csvParser())
       .on('data', (row) => {
-        if (row.comment && row.neighbourhood && row.timestamp) {
+        const { comment, neighbourhood, timestamp } = row;
+        if (comment && neighbourhood && timestamp) {
           results.push({
-            comment: row.comment,
-            neighbourhood: row.neighbourhood,
-            timestamp: new Date(Number(row.timestamp)).toISOString()
+            comment,
+            neighbourhood,
+            timestamp: new Date(Number(timestamp)).toISOString()
           });
         }
       })
@@ -41,6 +45,4 @@ async function processCSV() {
   });
 }
 
-module.exports = {
-  processCSV,
-};
+module.exports = { processCSV };

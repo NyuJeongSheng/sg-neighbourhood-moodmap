@@ -24,6 +24,14 @@ export default function FilterPanel({
   selectedNeighbourhood,
   onResetView,
 }: FilterPanelProps) {
+  const toggleFilter = (color: string) => {
+    setFilters(prev =>
+      prev.includes(color)
+        ? prev.filter(c => c !== color)
+        : [...prev, color]
+    );
+  };
+
   return (
     <div className={styles.panel}>
       {selectedNeighbourhood ? (
@@ -37,18 +45,12 @@ export default function FilterPanel({
           </button>
 
           <div className={styles.colorGroup}>
-            {allColors.map((color) => {
+            {allColors.map(color => {
               const isSelected = filters.includes(color);
               return (
                 <label
                   key={color}
-                  onClick={() =>
-                    setFilters((prev) =>
-                      prev.includes(color)
-                        ? prev.filter((c) => c !== color)
-                        : [...prev, color]
-                    )
-                  }
+                  onClick={() => toggleFilter(color)}
                   className={styles.label}
                 >
                   <div
