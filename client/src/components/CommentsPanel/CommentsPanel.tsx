@@ -32,8 +32,6 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
   const [showTrend, setShowTrend] = useState(false);
   const [trendData, setTrendData] = useState<TrendPoint[]>([]);
 
-  const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
-
   useEffect(() => {
     if (!neighbourhoodName) return;
     setIsVisible(true);
@@ -56,6 +54,7 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
         setTrendData([]);
       });
 
+    const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
     const lowerCasedData: Record<string, number> = {};
     for (const key in sentimentScores) {
       lowerCasedData[key.toLowerCase()] = sentimentScores[key];

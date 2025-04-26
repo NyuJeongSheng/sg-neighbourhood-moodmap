@@ -1,14 +1,16 @@
 // services/csvService.js
-const fs = require('fs');
-const path = require('path');
-const csvParser = require('csv-parser');
+import fs from 'fs';
+import path from 'path';
+import csvParser from 'csv-parser';
+import { fileURLToPath } from 'url';
 
-// === File Paths ===
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 const inputPath = path.join(__dirname, '..', 'data', 'raw', 'dummy_data.csv');
 const outputPath = path.join(__dirname, '..', 'data', 'processed', 'neighbourhood_comments.json');
 
-// === Process CSV into structured JSON ===
-async function processCSV() {
+export async function processCSV() {
   return new Promise((resolve, reject) => {
     const results = [];
 
@@ -44,5 +46,3 @@ async function processCSV() {
       .on('error', (err) => reject(err));
   });
 }
-
-module.exports = { processCSV };

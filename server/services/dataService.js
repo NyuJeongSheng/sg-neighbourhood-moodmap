@@ -1,8 +1,12 @@
 // services/dataService.js
-const fs = require('fs');
-const path = require('path');
+import { fileURLToPath } from 'url';
+import path from 'path';
+import fs from 'fs';
 
-const processedDir = path.join(__dirname, '../data/processed');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const processedDir = path.join(__dirname, '..', 'data', 'processed');
 
 // Ensure the directories exist
 if (!fs.existsSync(processedDir)) {
@@ -16,12 +20,14 @@ const readJSON = (filename) => {
 };
 
 // Public functions to get datasets
-const getCommentSentimentsData = () => readJSON('comment_sentiment_scores.json');
-const getSentimentData = () => readJSON('neighbourhood_sentiment.json');
-const getCommentsData = () => readJSON('neighbourhood_comments.json');
+export function getCommentSentimentsData() {
+  return readJSON('comment_sentiment_scores.json');
+}
 
-module.exports = {
-  getCommentSentimentsData,
-  getSentimentData,
-  getCommentsData,
-};
+export function getSentimentData() {
+  return readJSON('neighbourhood_sentiment.json');
+}
+
+export function getCommentsData() {
+  return readJSON('neighbourhood_comments.json');
+}

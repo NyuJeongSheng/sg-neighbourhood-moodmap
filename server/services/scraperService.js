@@ -1,10 +1,14 @@
 // services/scraperService.js
-const path = require('path');
-const { spawn } = require('child_process');
+import { fileURLToPath } from 'url';
+import path from 'path';
+import { spawn } from 'child_process';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const scraperPath = path.join(__dirname, '..', 'scripts', 'scraper.js');
 
-function runScraper() {
+export function runScraper() {
   return new Promise((resolve, reject) => {
     console.log('\n[scraperService] Running scraper.js...');
 
@@ -26,5 +30,3 @@ function runScraper() {
     });
   });
 }
-
-module.exports = { runScraper };

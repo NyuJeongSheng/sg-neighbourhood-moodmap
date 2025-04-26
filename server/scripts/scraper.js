@@ -1,11 +1,20 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-const path = require('path');
-const btoa = require('btoa');
+import fetch from 'node-fetch';
+import fs from 'fs';
+import { fileURLToPath } from 'url';
+import path from 'path';
+import btoa from 'btoa';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // === Config ===
 const CLIENT_ID = process.env.REDDIT_CLIENT_ID;
 const CLIENT_SECRET = process.env.REDDIT_CLIENT_SECRET;
+
+if (!CLIENT_ID || !CLIENT_SECRET) {
+  throw new Error('REDDIT_CLIENT_ID or REDDIT_CLIENT_SECRET is not set. Please check your .env file.');
+}
+
 const POST_IDS = ['137jihc', '1htiqn3', '14mp0be'];
 
 const outputDir = path.join(__dirname, '..', 'data');
