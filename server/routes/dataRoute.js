@@ -1,8 +1,10 @@
-const express = require('express');
+// routes/dataRoute.js
+import express from 'express';
+import { runScraperAndAnalyze, runCSVProcessing } from '../controllers/dataController.js';
+
 const router = express.Router();
-const { runScraperAndAnalyze, runCSVProcessing } = require('../controllers/dataController');
 
 router.post('/scrape', runScraperAndAnalyze);
 router.post('/process-csv', runCSVProcessing);
 
-module.exports = router;
+export default router;

@@ -1,19 +1,24 @@
 // index.js
-const path = require('path');
-const fs = require('fs');
-const express = require('express');
-const cors = require('cors');
-const { exec } = require('child_process');
-require('dotenv').config({ path: path.resolve(__dirname, '.env') });
+import path from 'path';
+import fs from 'fs';
+import express from 'express';
+import cors from 'cors';
+import { fileURLToPath } from 'url';
+import { exec } from 'child_process';
+import dotenv from 'dotenv';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 // Routes
-const neighbourhoodRoute = require('./routes/neighbourhoodRoute');
-const dataRoute = require('./routes/dataRoute');
-const chatRoute = require('./routes/chatRoute');
+import neighbourhoodRoute from './routes/neighbourhoodRoute.js';
+import dataRoute from './routes/dataRoute.js';
+import chatRoute from './routes/chatRoute.js';
 
 // Services
-const { processCSV } = require('./services/csvService');
-const { runSentimentAnalysis } = require('./services/sentimentService');
+import { processCSV } from './services/csvService.js';
+import { runSentimentAnalysis } from './services/sentimentService.js';
 
 const app = express();
 const PORT = 5000;

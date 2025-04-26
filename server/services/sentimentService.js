@@ -1,10 +1,14 @@
 // services/sentimentService.js
-const path = require('path');
-const { spawn } = require('child_process');
+import path from 'path';
+import { spawn } from 'child_process';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const analyzerScript = path.join(__dirname, '..', 'scripts', 'sentiment_analysis.py');
 
-function runSentimentAnalysis(model = 'vader') {
+export function runSentimentAnalysis(model = 'vader') {
   return new Promise((resolve, reject) => {
     console.log(`\n[sentimentService] Running sentiment_analysis.py with model: ${model}`);
 
@@ -26,5 +30,3 @@ function runSentimentAnalysis(model = 'vader') {
     });
   });
 }
-
-module.exports = { runSentimentAnalysis };

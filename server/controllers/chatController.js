@@ -1,7 +1,8 @@
-const { getSentimentData, getCommentSentimentsData } = require('../services/dataService');
-const { generateResponse } = require('../services/geminiService');
+// chatController.js
+import { getSentimentData, getCommentSentimentsData } from '../services/dataService.js';
+import { generateResponse } from '../services/geminiService.js';
 
-const handleChat = async (req, res) => {
+export async function handleChat(req, res) {
   const userMessage = req.body.message;
 
   try {
@@ -11,9 +12,7 @@ const handleChat = async (req, res) => {
     const reply = await generateResponse(userMessage, sentimentData, commentData);
     res.status(200).json({ reply });
   } catch (error) {
-    console.error('Chatbot Error: ', error);
+    console.error('Chatbot Error:', error);
     res.status(error.status).json({ error: error.errorDetails[1]["message"] });
   }
-};
-
-module.exports = { handleChat };
+}

@@ -1,8 +1,14 @@
 // services/geminiService.js
-const { GoogleGenerativeAI } = require('@google/generative-ai');
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const generateResponse = async (userMessage, sentimentData, commentData) => {
+export async function generateResponse(userMessage, sentimentData, commentData) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  
+  if (!apiKey) {
+    throw new Error('GEMINI_API_KEY is not set. Please check your .env file.');
+  }
+
+  const genAI = new GoogleGenerativeAI(apiKey);
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
 
   const prompt = `
@@ -30,6 +36,4 @@ const generateResponse = async (userMessage, sentimentData, commentData) => {
 
   const result = await model.generateContent(prompt);
   return await result.response.text();
-};
-
-module.exports = { generateResponse };
+}
