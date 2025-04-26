@@ -6,7 +6,10 @@ from sklearn.linear_model import LogisticRegression
 
 # === Define Paths ===
 script_dir = os.path.dirname(__file__)  # scripts/
-data_path = os.path.join(script_dir, '..', 'data', 'raw', 'sentiment_training_data.csv')
+data_path = os.path.join(
+    script_dir, '..', 'data', 'raw', 'sentiment_training_data.csv'
+)
+
 model_dir = os.path.join(script_dir, '..', 'models')
 
 model_path = os.path.join(model_dir, 'custom_model.pkl')

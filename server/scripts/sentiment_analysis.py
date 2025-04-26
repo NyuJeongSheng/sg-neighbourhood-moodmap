@@ -15,7 +15,9 @@ data_dir = os.path.join(script_dir, '..', 'data')
 
 input_path = os.path.join(data_dir, 'processed', 'neighbourhood_comments.json')
 neigh_path = os.path.join(data_dir, 'raw', 'neighbourhoods.json')
-comment_out = os.path.join(data_dir, 'processed', 'comment_sentiment_scores.json')
+comment_out = os.path.join(
+    data_dir, 'processed', 'comment_sentiment_scores.json'
+)
 neigh_out = os.path.join(data_dir, 'processed', 'neighbourhood_sentiment.json')
 
 # === Load input data ===
@@ -32,4 +34,7 @@ elif args.model == 'custom':
     run_custom_analysis(input_path, neigh_path, comment_out, neigh_out)
 
 # === Done ===
-print(f"[Done] Sentiment analysis complete using '{args.model}' model. Output: {comment_out}")
+print(
+    f"[Done] Sentiment analysis complete using '{args.model}' model. "
+    f"Output: {comment_out}"
+)
