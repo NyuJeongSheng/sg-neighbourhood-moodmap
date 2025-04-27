@@ -1,5 +1,5 @@
 
-# 🏡 SG Neighbourhood Moodmap
+# SG Neighbourhood Moodmap
 
 A full-stack web application that analyzes the mood and sentiment of Singapore neighbourhoods based on Reddit comments.
 
@@ -11,7 +11,7 @@ Built with:
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 /client  → Frontend (React + Vite + TypeScript)
@@ -20,7 +20,7 @@ Built with:
 
 ---
 
-## ✨ Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -85,7 +85,7 @@ If backend is slow to boot, frontend will retry API calls until backend is ready
 
 ---
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Script | Description |
 |:-------|:------------|
@@ -96,7 +96,7 @@ If backend is slow to boot, frontend will retry API calls until backend is ready
 
 ---
 
-## ⚡ Environment Variables
+## Environment Variables
 
 Create a `.env` file inside `/server/`:
 
@@ -111,7 +111,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-## 🧪 Troubleshooting
+## Troubleshooting
 
 | Problem | Solution |
 |:--------|:---------|
@@ -122,7 +122,7 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-## ✨ Technologies Used
+## Technologies Used
 
 - Frontend: React, Vite, TypeScript
 - Backend: Node.js, Express
@@ -133,10 +133,10 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
-## 📄 License
+## License
 
 This project is intended for educational and portfolio purposes.
 
 ---
 
-# ✨ Thank You for Visiting SG Neighbourhood Moodmap!
+# Thank You for Visiting SG Neighbourhood Moodmap!
