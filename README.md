@@ -1,13 +1,40 @@
 
 # SG Neighbourhood Moodmap
 
+![image](https://github.com/user-attachments/assets/3251fe27-1a51-4184-922b-90affa59b3a4)
+
 A full-stack web application that analyzes the mood and sentiment of Singapore neighbourhoods based on Reddit comments.
 
 Built with:
-- 🌟 Node.js + Express backend
-- 🌟 React + Vite + TypeScript frontend
-- 🐍 Python scripts for custom sentiment analysis
-- 🛋️ Reddit API + Google Gemini API
+- Node.js + Express backend
+- React + Vite + TypeScript frontend
+- Python scripts for custom sentiment analysis
+- Reddit API + Google Gemini API
+
+---
+
+## Project Purpose
+
+The project aims to provide an overall view of public sentiments towards various Singapore neighbourhoods.
+Users can analyze either real-time Reddit comments or a sample local dataset, and visualize sentiment trends across different areas. An AI-powered chatbot (Gemini) also allows users to ask questions related to the sentiment data.
+
+---
+
+## Key Features
+
+- **Two data sources**: 
+  - Local dummy dataset (CSV)
+  - Live Reddit comment scraping
+- **Two sentiment analysis models**: 
+  - Pre-trained VADER model
+  - Custom-trained machine learning model
+- **Interactive graph plotting**:
+  - Visualizes comment sentiment trends for neighbourhoods with 3+ comments
+- **AI Chatbot (Gemini API)**:
+  - Ask questions related to the analysed data for additional insights
+- **Flexible backend and frontend setup**:
+  - Backend (Node.js + Python)
+  - Frontend (React + Vite)
 
 ---
 
