@@ -165,5 +165,3 @@ GEMINI_API_KEY=your_gemini_api_key
 This project is intended for educational and portfolio purposes.
 
 ---
-
-# Thank You for Visiting SG Neighbourhood Moodmap!
