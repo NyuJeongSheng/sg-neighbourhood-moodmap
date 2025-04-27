@@ -163,5 +163,3 @@ GEMINI_API_KEY=your_gemini_api_key
 ## License
 
 This project is intended for educational and portfolio purposes.
-
----
