@@ -24,7 +24,7 @@ Users can analyze either real-time Reddit comments or a sample local dataset, an
 
 You can try the live version of this project here:
 
-**[SG Neighbourhood Moodmap Live Website](https://sg-neighbourhood-moodmap-website.onrender.com/)**
+[SG Neighbourhood Moodmap Live Website](https://sg-neighbourhood-moodmap-website.onrender.com/)
 
 > Note: The backend server may take up to 5 minutes to wake up after inactivity due to free hosting limitations. Please be patient if the loading screen appears.
 
