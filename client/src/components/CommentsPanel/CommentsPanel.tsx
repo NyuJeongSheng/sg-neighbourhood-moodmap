@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import sentimentScoresRaw from '../../../../server/data/processed/neighbourhood_sentiment.json';
 import styles from './CommentsPanel.module.css';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { API_BASE } from '../../utils/apiBase';
 
 interface CommentsPanelProps {
   neighbourhoodName: string | null;
@@ -36,7 +36,7 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
     if (!neighbourhoodName) return;
     setIsVisible(true);
 
-    fetch(`http://localhost:5000/api/comments/${encodeURIComponent(neighbourhoodName)}`)
+    fetch(`${API_BASE}/api/comments/${encodeURIComponent(neighbourhoodName)}`)
       .then((res) => res.json())
       .then((data) => {
         const list: CommentEntry[] = Array.isArray(data) ? data : data.results || [];
@@ -54,13 +54,17 @@ export default function CommentsPanel({ neighbourhoodName, onClose }: CommentsPa
         setTrendData([]);
       });
 
-    const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
-    const lowerCasedData: Record<string, number> = {};
-    for (const key in sentimentScores) {
-      lowerCasedData[key.toLowerCase()] = sentimentScores[key];
-    }
-    const score = lowerCasedData[neighbourhoodName.toLowerCase()] ?? null;
-    setAverageScore(score);
+    fetch(`${API_BASE}/files/processed/neighbourhood_sentiment.json`)
+      .then((res) => res.json())
+      .then((sentimentScoresRaw) => {
+        const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
+        const lowerCasedData: Record<string, number> = {};
+        for (const key in sentimentScores) {
+          lowerCasedData[key.toLowerCase()] = sentimentScores[key];
+        }
+        const score = lowerCasedData[neighbourhoodName.toLowerCase()] ?? null;
+        setAverageScore(score);
+      });
   }, [neighbourhoodName]);
 
   const handleClose = () => {
