@@ -1,15 +1,25 @@
 import { useState } from 'react';
 import SingaporeMap from './components/SingaporeMap/SingaporeMap';
 import ChatBot from './components/ChatBot/ChatBot';
+import { useBackendStatus } from './hooks/pingBackendStatus';
+import ServerStartupOverlay from './components/ServerStartupOverlay/ServerStartupOverlay';
 
 function App() {
   const [loading, setLoading] = useState(false);
 
+  // Check if backend is reachable
+  const isBackendUp = useBackendStatus();
+
   return (
     <>
+      {/* Show backend wake-up overlay if backend is down */}
+      {!isBackendUp && <ServerStartupOverlay />}
+
+      {/* Main app content */}
       <SingaporeMap setLoading={setLoading} />
       <ChatBot />
 
+      {/* Loading overlay when map data is updating */}
       {loading && (
         <div
           style={{
