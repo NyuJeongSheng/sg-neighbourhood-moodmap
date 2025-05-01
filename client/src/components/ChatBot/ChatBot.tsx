@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import styles from './ChatBot.module.css';
+import { API_BASE } from '../../utils/apiBase';
 
 const exampleQuestions = [
   'Which neighbourhood has the best sentiment?',
@@ -56,7 +57,7 @@ export default function ChatBot() {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:5000/api/chat', {
+      const res = await fetch(`${API_BASE}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: messageToSend })

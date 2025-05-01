@@ -1,6 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './HamburgerMenu.module.css';
-import neighbourhoods from '../../../../server/data/raw/neighbourhoods.json';
+import { API_BASE } from '../../utils/apiBase';
+
+interface Neighbourhood {
+  name: string;
+  lat: number;
+  lng: number;
+}
 
 interface HamburgerMenuProps {
   isOpen: boolean;
@@ -16,6 +22,14 @@ export default function HamburgerMenu({
   onSelectNeighbourhood
 }: HamburgerMenuProps) {
   const [search, setSearch] = useState('');
+  const [neighbourhoods, setNeighbourhoods] = useState<Neighbourhood[]>([]);
+
+  useEffect(() => {
+    fetch(`${API_BASE}/files/raw/neighbourhoods.json`)
+      .then((res) => res.json())
+      .then((data) => setNeighbourhoods(data))
+      .catch((err) => console.error('Failed to load neighbourhoods:', err));
+  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
@@ -77,7 +91,7 @@ export default function HamburgerMenu({
         </div>
       </div>
 
-      {/* Toggle Button (Always Visible) */}
+      {/* Toggle Button */}
       <div className={styles.toggleButton} onClick={onToggle}>☰</div>
     </>
   );

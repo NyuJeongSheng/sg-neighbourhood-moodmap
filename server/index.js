@@ -27,6 +27,10 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
+// Static serving for JSON data
+app.use('/files/processed', express.static(path.join(__dirname, 'data', 'processed')));
+app.use('/files/raw', express.static(path.join(__dirname, 'data', 'raw')));
+
 // API Routes
 app.use('/api', neighbourhoodRoute);
 app.use('/api', dataRoute);

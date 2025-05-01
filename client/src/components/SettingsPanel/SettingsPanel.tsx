@@ -1,30 +1,41 @@
 import { useEffect, useState } from 'react';
 import { Settings } from 'lucide-react';
 import styles from './SettingsPanel.module.css';
-
-import sentimentCommentsData from '../../../../server/data/processed/comment_sentiment_scores.json';
-import sentimentNeighbourhoodData from '../../../../server/data/processed/neighbourhood_sentiment.json';
+import { API_BASE } from '../../utils/apiBase';
 
 interface SettingsPanelProps {
   setLoading: (loading: boolean) => void;
+  onSettingsChange: () => void;
 }
 
-export default function SettingsPanel({ setLoading }: SettingsPanelProps) {
+export default function SettingsPanel({ setLoading, onSettingsChange }: SettingsPanelProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [dataSource, setDataSource] = useState<'online' | 'csv'>('csv');
   const [sentimentModel, setSentimentModel] = useState<'vader' | 'custom'>('vader');
 
   useEffect(() => {
-    try {
-      const model = sentimentNeighbourhoodData?.model;
-      const postId = sentimentCommentsData?.[0]?.post_id;
+    const loadInitialSettings = async () => {
+      try {
+        const [commentsRes, sentimentRes] = await Promise.all([
+          fetch(`${API_BASE}/files/processed/comment_sentiment_scores.json`),
+          fetch(`${API_BASE}/files/processed/neighbourhood_sentiment.json`)
+        ]);
 
-      setSentimentModel(model === 'custom' ? 'custom' : 'vader');
-      setDataSource(postId ? 'online' : 'csv');
-    } catch (err) {
-      console.error('⚠️ Failed to load static sentiment data:', err);
-      setDataSource('csv');
-    }
+        const commentData = await commentsRes.json();
+        const sentimentData = await sentimentRes.json();
+
+        const model = sentimentData?.model;
+        const postId = commentData?.[0]?.post_id;
+
+        setSentimentModel(model === 'custom' ? 'custom' : 'vader');
+        setDataSource(postId ? 'online' : 'csv');
+      } catch (err) {
+        console.error('⚠️ Failed to load sentiment data:', err);
+        setDataSource('csv');
+      }
+    };
+
+    loadInitialSettings();
   }, []);
 
   const handleChange = async (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -40,20 +51,21 @@ export default function SettingsPanel({ setLoading }: SettingsPanelProps) {
     try {
       const endpoint =
         newDataSource === 'online'
-          ? 'http://localhost:5000/api/scrape'
-          : 'http://localhost:5000/api/process-csv';
+          ? `${API_BASE}/api/scrape`
+          : `${API_BASE}/api/process-csv`;
 
       const res = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ model: newModel }),
+        body: JSON.stringify({ model: newModel })
       });
 
-      if (!res.ok) throw new Error('❌ Failed to trigger backend update');
+      if (!res.ok) throw new Error('Failed to trigger backend update');
 
       console.log(`✅ Triggered: ${newDataSource} with model ${newModel}`);
+      onSettingsChange();
     } catch (err) {
-      console.error('❌ Backend update failed:', err);
+      console.error('Backend update failed:', err);
     } finally {
       setLoading(false);
     }

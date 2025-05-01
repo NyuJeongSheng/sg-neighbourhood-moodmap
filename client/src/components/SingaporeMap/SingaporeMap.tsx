@@ -1,15 +1,19 @@
-import { useState, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L, { Map as LeafletMap } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-
-import neighbourhoods from '../../../../server/data/raw/neighbourhoods.json';
-import sentimentScoresRaw from '../../../../server/data/processed/neighbourhood_sentiment.json';
 
 import HamburgerMenu from '../HamburgerMenu/HamburgerMenu';
 import FilterPanel from '../FilterPanel/FilterPanel';
 import CommentsPanel from '../CommentsPanel/CommentsPanel';
 import SettingsPanel from '../SettingsPanel/SettingsPanel';
+import { API_BASE } from '../../utils/apiBase';
+
+interface Neighbourhood {
+  name: string;
+  lat: number;
+  lng: number;
+}
 
 interface SingaporeMapProps {
   setLoading: (loading: boolean) => void;
@@ -19,8 +23,6 @@ const singaporeBounds = L.latLngBounds(
   [1.200, 103.600],
   [1.500, 104.020]
 );
-
-const sentimentScores: Record<string, number> = sentimentScoresRaw.sentiment;
 
 const getMarkerColor = (score: number | undefined): string => {
   if (score === undefined) return 'grey';
@@ -46,9 +48,34 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedNeighbourhood, setSelectedNeighbourhood] = useState<{ name: string; lat: number; lng: number } | null>(null);
   const [selectedName, setSelectedName] = useState<string | null>(null);
+  const [neighbourhoods, setNeighbourhoods] = useState<Neighbourhood[]>([]);
+  const [sentimentScores, setSentimentScores] = useState<Record<string, number>>({});
 
   const mapRef = useRef<LeafletMap | null>(null);
   const markerRefs = useRef<Record<string, L.Marker>>({});
+
+  const fetchData = async () => {
+    try {
+      const [neighRes, sentimentRes] = await Promise.all([
+        fetch(`${API_BASE}/files/raw/neighbourhoods.json`),
+        fetch(`${API_BASE}/files/processed/neighbourhood_sentiment.json`)
+      ]);
+      const neighData = await neighRes.json();
+      const sentimentData = await sentimentRes.json();
+      setNeighbourhoods(neighData);
+      setSentimentScores(sentimentData.sentiment || {});
+    } catch (err) {
+      console.error('Failed to load map data:', err);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const handleSettingsChange = () => {
+    fetchData();
+  };
 
   const handleResetView = () => {
     mapRef.current?.setView([1.3621, 103.7958], 13);
@@ -91,7 +118,7 @@ export default function SingaporeMap({ setLoading }: SingaporeMapProps) {
         onResetView={handleResetView}
       />
 
-      <SettingsPanel setLoading={setLoading} />
+      <SettingsPanel setLoading={setLoading} onSettingsChange={handleSettingsChange} />
 
       <MapContainer
         center={[1.3621, 103.7958]}
