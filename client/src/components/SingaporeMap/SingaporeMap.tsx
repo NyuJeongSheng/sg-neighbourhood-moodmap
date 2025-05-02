@@ -34,8 +34,8 @@ const getMarkerColor = (score: number | undefined): string => {
 
 const createColoredIcon = (color: string) =>
   new L.Icon({
-    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${color}.png`,
-    shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
+    iconUrl: `/markers/marker-icon-${color}.png`,
+    shadowUrl: `/markers/marker-shadow.png`,
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
