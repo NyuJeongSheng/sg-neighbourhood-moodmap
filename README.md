@@ -122,6 +122,29 @@ If backend is slow to boot, frontend will retry API calls until backend is ready
 
 ---
 
+### Running with Docker
+
+No local Node/Python setup required — everything runs inside containers.
+
+```bash
+docker compose up --build
+```
+
+This builds and starts:
+- **server** — Node.js + Python image, available at `http://localhost:5000`
+- **client** — React app built and served via Nginx, available at `http://localhost:3000`
+
+If you have API keys (Reddit/Gemini), create `server/.env` from `server/.env.example` first — Compose will load it automatically. Model/data files trained on first boot persist in named Docker volumes across restarts.
+
+To build a single service's image directly (e.g. for pushing to a registry):
+
+```bash
+docker build -t moodmap-server ./server
+docker build -t moodmap-client ./client --build-arg VITE_API_BASE=https://your-api-url
+```
+
+---
+
 ## Available Scripts
 
 | Script | Description |
@@ -159,6 +182,17 @@ GEMINI_API_KEY=your_gemini_api_key
 
 ---
 
+## CI/CD
+
+GitHub Actions runs on every push/PR:
+- Lints backend (ESLint + Flake8) and frontend (ESLint)
+- Builds the server and client Docker images to catch broken builds early
+- On pushes to `main`, publishes both images to GitHub Container Registry (`ghcr.io`)
+
+See `.github/workflows/`.
+
+---
+
 ## Technologies Used
 
 - Frontend: React, Vite, TypeScript
@@ -167,6 +201,8 @@ GEMINI_API_KEY=your_gemini_api_key
 - Reddit API
 - Google Gemini API
 - ESLint for backend linting
+- Docker + Docker Compose for containerized local dev and builds
+- GitHub Actions for CI/CD (lint, Docker build, GHCR publish)
 
 ---
 

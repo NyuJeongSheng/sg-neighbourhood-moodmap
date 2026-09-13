@@ -1,0 +1,25 @@
+services:
+  server:
+    build: ./server
+    ports:
+      - "5000:5000"
+    env_file:
+      - path: ./server/.env
+        required: false
+    volumes:
+      - server_models:/app/models
+      - server_processed:/app/data/processed
+
+  client:
+    build:
+      context: ./client
+      args:
+        VITE_API_BASE: http://localhost:5000
+    ports:
+      - "3000:80"
+    depends_on:
+      - server
+
+volumes:
+  server_models:
+  server_processed:
